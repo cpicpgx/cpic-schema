@@ -1,4 +1,4 @@
 rebuild:
 	dropdb cpic
 	createdb cpic
-	psql cpic < cpic.schema.sql
+	psql cpic -q < cpic.schema.sql
