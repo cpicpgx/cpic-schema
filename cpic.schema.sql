@@ -17,6 +17,12 @@ CREATE TABLE allele
   functionalStatus VARCHAR(200)
 );
 
+CREATE TABLE drug
+(
+  rxCui VARCHAR(20) PRIMARY KEY NOT NULL,
+  name VARCHAR(200) NOT NULL UNIQUE
+);
+
 CREATE TABLE pair
 (
   pairid INTEGER PRIMARY KEY DEFAULT nextval('cpic_id'),
@@ -66,5 +72,6 @@ BEGIN;
 \i ./guideline.sql
 \i ./allele.sql
 \i ./pair.sql
+\i ./gene.sql
 
 COMMIT;
