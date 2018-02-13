@@ -35,7 +35,7 @@ CREATE TABLE allele
 
 CREATE TABLE drug
 (
-  rxCui VARCHAR(20) PRIMARY KEY NOT NULL,
+  drugId VARCHAR(20) PRIMARY KEY NOT NULL,
   name VARCHAR(200) NOT NULL UNIQUE
 );
 
@@ -59,7 +59,7 @@ CREATE TABLE pair_drug
 CREATE TABLE gene
 (
   hgncId VARCHAR(20) PRIMARY KEY NOT NULL,
-  chromosomalSequenceId VARCHAR(20),
+  chr VARCHAR(20),
   geneSequenceId VARCHAR(20),
   proteinSequenceId VARCHAR(20)
 );
@@ -90,5 +90,6 @@ BEGIN;
 \i ./pair.sql
 \i ./gene.sql
 \i ./publication.sql
+\i ./drug.sql
 
 COMMIT;
