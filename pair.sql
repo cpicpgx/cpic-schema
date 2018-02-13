@@ -1,911 +1,355 @@
-insert into pair(pairid,level) values (90000,'D');
-insert into pair_gene(pairid,hgncId) values (90000,'TXNRD2');
-insert into pair_drug(pairid,rxCui) values (90000,'null');
-insert into pair(pairid,level) values (90001,'D');
-insert into pair_gene(pairid,hgncId) values (90001,'UGT1A4');
-insert into pair_drug(pairid,rxCui) values (90001,'28439');
-insert into pair(pairid,level) values (90002,'B');
-insert into pair_gene(pairid,hgncId) values (90002,'ABL2');
-insert into pair_drug(pairid,rxCui) values (90002,'11118');
-insert into pair(pairid,level) values (90003,'B');
-insert into pair_gene(pairid,hgncId) values (90003,'ASL');
-insert into pair_drug(pairid,rxCui) values (90003,'11118');
-insert into pair(pairid,level) values (90004,'B');
-insert into pair_gene(pairid,hgncId) values (90004,'ASS1');
-insert into pair_drug(pairid,rxCui) values (90004,'11118');
-insert into pair(pairid,level) values (90005,'B');
-insert into pair_gene(pairid,hgncId) values (90005,'CPS1');
-insert into pair_drug(pairid,rxCui) values (90005,'11118');
-insert into pair(pairid,level) values (90006,'C');
-insert into pair_gene(pairid,hgncId) values (90006,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90006,'9071');
-insert into pair(pairid,level) values (90007,'B');
-insert into pair_gene(pairid,hgncId) values (90007,'GBA');
-insert into pair_drug(pairid,rxCui) values (90007,'901805');
-insert into pair(pairid,level) values (90008,'B');
-insert into pair_gene(pairid,hgncId) values (90008,'HPRT1');
-insert into pair_drug(pairid,rxCui) values (90008,'7145');
-insert into pair(pairid,level) values (90009,'D');
-insert into pair_gene(pairid,hgncId) values (90009,'LDLR');
-insert into pair_drug(pairid,rxCui) values (90009,'83367');
-insert into pair(pairid,level) values (90010,'B');
-insert into pair_gene(pairid,hgncId) values (90010,'NAGS');
-insert into pair_drug(pairid,rxCui) values (90010,'11118');
-insert into pair(pairid,level) values (90011,'B');
-insert into pair_gene(pairid,hgncId) values (90011,'NAGS');
-insert into pair_drug(pairid,rxCui) values (90011,'401713');
-insert into pair(pairid,level) values (90012,'B');
-insert into pair_gene(pairid,hgncId) values (90012,'OTC');
-insert into pair_drug(pairid,rxCui) values (90012,'11118');
-insert into pair(pairid,level) values (90013,'B');
-insert into pair_gene(pairid,hgncId) values (90013,'POLG');
-insert into pair_drug(pairid,rxCui) values (90013,'11118');
-insert into pair(pairid,level) values (90014,'B');
-insert into pair_gene(pairid,hgncId) values (90014,'POLG');
-insert into pair_drug(pairid,rxCui) values (90014,'266856');
-insert into pair(pairid,level) values (90015,'D');
-insert into pair_gene(pairid,hgncId) values (90015,'SLC28A3');
-insert into pair_drug(pairid,rxCui) values (90015,'null');
-insert into pair(pairid,level) values (90016,'B');
-insert into pair_gene(pairid,hgncId) values (90016,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90016,'1658314');
-insert into pair(pairid,level) values (90017,'B/C');
-insert into pair_gene(pairid,hgncId) values (90017,'CYP2C19');
-insert into pair_drug(pairid,rxCui) values (90017,'1739745');
-insert into pair(pairid,level) values (90018,'D');
-insert into pair_gene(pairid,hgncId) values (90018,'TYMS');
-insert into pair_drug(pairid,rxCui) values (90018,'194000');
-insert into pair(pairid,level) values (90019,'B');
-insert into pair_gene(pairid,hgncId) values (90019,'SLCO1B1');
-insert into pair_drug(pairid,rxCui) values (90019,'null');
-insert into pair(pairid,level) values (90020,'B/C');
-insert into pair_gene(pairid,hgncId) values (90020,'UGT1A1');
-insert into pair_drug(pairid,rxCui) values (90020,'1433868');
-insert into pair(pairid,level) values (90021,'B/C');
-insert into pair_gene(pairid,hgncId) values (90021,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90021,'135447');
-insert into pair(pairid,level) values (90022,'C');
-insert into pair_gene(pairid,hgncId) values (90022,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90022,'72625');
-insert into pair(pairid,level) values (90023,'C');
-insert into pair_gene(pairid,hgncId) values (90023,'CYP2C9');
-insert into pair_drug(pairid,rxCui) values (90023,'1665509');
-insert into pair(pairid,level) values (90024,'C');
-insert into pair_gene(pairid,hgncId) values (90024,'CYP2C19');
-insert into pair_drug(pairid,rxCui) values (90024,'1665509');
-insert into pair(pairid,level) values (90025,'C');
-insert into pair_gene(pairid,hgncId) values (90025,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90025,'1665509');
-insert into pair(pairid,level) values (90026,'D');
-insert into pair_gene(pairid,hgncId) values (90026,'TYMS');
-insert into pair_drug(pairid,rxCui) values (90026,'4492');
-insert into pair(pairid,level) values (90027,'C');
-insert into pair_gene(pairid,hgncId) values (90027,'CYP2C9');
-insert into pair_drug(pairid,rxCui) values (90027,'1731031');
-insert into pair(pairid,level) values (90028,'B/C');
-insert into pair_gene(pairid,hgncId) values (90028,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90028,'6387');
-insert into pair(pairid,level) values (90029,'C');
-insert into pair_gene(pairid,hgncId) values (90029,'SLCO1B1');
-insert into pair_drug(pairid,rxCui) values (90029,'6851');
-insert into pair(pairid,level) values (90030,'C');
-insert into pair_gene(pairid,hgncId) values (90030,'CYP3A5');
-insert into pair_drug(pairid,rxCui) values (90030,'6960');
-insert into pair(pairid,level) values (90031,'D');
-insert into pair_gene(pairid,hgncId) values (90031,'VDR');
-insert into pair_drug(pairid,rxCui) values (90031,'253453');
-insert into pair(pairid,level) values (90032,'C');
-insert into pair_gene(pairid,hgncId) values (90032,'SLCO1B1');
-insert into pair_drug(pairid,rxCui) values (90032,'42463');
-insert into pair(pairid,level) values (90033,'D');
-insert into pair_gene(pairid,hgncId) values (90033,'VDR');
-insert into pair_drug(pairid,rxCui) values (90033,'9344');
-insert into pair(pairid,level) values (90034,'C/D');
-insert into pair_gene(pairid,hgncId) values (90034,'CYP2C8');
-insert into pair_drug(pairid,rxCui) values (90034,'84108');
-insert into pair(pairid,level) values (90035,'C');
-insert into pair_gene(pairid,hgncId) values (90035,'SLCO1B1');
-insert into pair_drug(pairid,rxCui) values (90035,'301542');
-insert into pair(pairid,level) values (90036,'C');
-insert into pair_gene(pairid,hgncId) values (90036,'COMT');
-insert into pair_drug(pairid,rxCui) values (90036,'null');
-insert into pair(pairid,level) values (90037,'C');
-insert into pair_gene(pairid,hgncId) values (90037,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90037,'77492');
-insert into pair(pairid,level) values (90038,'D');
-insert into pair_gene(pairid,hgncId) values (90038,'KCNIP4');
-insert into pair_drug(pairid,rxCui) values (90038,'null');
-insert into pair(pairid,level) values (90039,'B');
-insert into pair_gene(pairid,hgncId) values (90039,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90039,'3289');
-insert into pair_drug(pairid,rxCui) values (90039,'9068');
-insert into pair(pairid,level) values (90040,'A');
-insert into pair_gene(pairid,hgncId) values (90040,'CACNA1S');
-insert into pair_drug(pairid,rxCui) values (90040,'10154');
-insert into pair(pairid,level) values (90041,'A');
-insert into pair_gene(pairid,hgncId) values (90041,'CACNA1S');
-insert into pair_drug(pairid,rxCui) values (90041,'6026');
-insert into pair(pairid,level) values (90042,'A');
-insert into pair_gene(pairid,hgncId) values (90042,'CACNA1S');
-insert into pair_drug(pairid,rxCui) values (90042,'36453');
-insert into pair(pairid,level) values (90043,'A');
-insert into pair_gene(pairid,hgncId) values (90043,'CACNA1S');
-insert into pair_drug(pairid,rxCui) values (90043,'27340');
-insert into pair(pairid,level) values (90044,'A');
-insert into pair_gene(pairid,hgncId) values (90044,'HLA-A');
-insert into pair_drug(pairid,rxCui) values (90044,'2002');
-insert into pair(pairid,level) values (90045,'A');
-insert into pair_gene(pairid,hgncId) values (90045,'RYR1');
-insert into pair_drug(pairid,rxCui) values (90045,'6026');
-insert into pair(pairid,level) values (90046,'A');
-insert into pair_gene(pairid,hgncId) values (90046,'RYR1');
-insert into pair_drug(pairid,rxCui) values (90046,'36453');
-insert into pair(pairid,level) values (90047,'A');
-insert into pair_gene(pairid,hgncId) values (90047,'RYR1');
-insert into pair_drug(pairid,rxCui) values (90047,'27340');
-insert into pair(pairid,level) values (90048,'A/B');
-insert into pair_gene(pairid,hgncId) values (90048,'ABCB1');
-insert into pair_drug(pairid,rxCui) values (90048,'null');
-insert into pair(pairid,level) values (90049,'A/B');
-insert into pair_gene(pairid,hgncId) values (90049,'NUDT15');
-insert into pair_drug(pairid,rxCui) values (90049,'1256');
-insert into pair(pairid,level) values (90050,'A/B');
-insert into pair_gene(pairid,hgncId) values (90050,'NUDT15');
-insert into pair_drug(pairid,rxCui) values (90050,'103');
-insert into pair(pairid,level) values (90051,'B');
-insert into pair_gene(pairid,hgncId) values (90051,'CYP2B6');
-insert into pair_drug(pairid,rxCui) values (90051,'6813');
-insert into pair(pairid,level) values (90052,'B');
-insert into pair_gene(pairid,hgncId) values (90052,'CYP2C9');
-insert into pair_drug(pairid,rxCui) values (90052,'154');
-insert into pair(pairid,level) values (90053,'B');
-insert into pair_gene(pairid,hgncId) values (90053,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90053,'1547220');
-insert into pair(pairid,level) values (90054,'B');
-insert into pair_gene(pairid,hgncId) values (90054,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90054,'10171');
-insert into pair(pairid,level) values (90055,'B');
-insert into pair_gene(pairid,hgncId) values (90055,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90055,'4053');
-insert into pair_drug(pairid,rxCui) values (90055,'10207');
-insert into pair(pairid,level) values (90056,'B');
-insert into pair_gene(pairid,hgncId) values (90056,'HLA-A');
-insert into pair_drug(pairid,rxCui) values (90056,'519');
-insert into pair(pairid,level) values (90057,'B');
-insert into pair_gene(pairid,hgncId) values (90057,'HLA-B');
-insert into pair_drug(pairid,rxCui) values (90057,'32624');
-insert into pair(pairid,level) values (90058,'B');
-insert into pair_gene(pairid,hgncId) values (90058,'UGT1A1');
-insert into pair_drug(pairid,rxCui) values (90058,'1543543');
-insert into pair(pairid,level) values (90059,'B/C');
-insert into pair_gene(pairid,hgncId) values (90059,'SLC6A4');
-insert into pair_drug(pairid,rxCui) values (90059,'321988');
-insert into pair(pairid,level) values (90060,'B/C');
-insert into pair_gene(pairid,hgncId) values (90060,'SLC6A4');
-insert into pair_drug(pairid,rxCui) values (90060,'2556');
-insert into pair(pairid,level) values (90061,'C');
-insert into pair_gene(pairid,hgncId) values (90061,'CFTR');
-insert into pair_drug(pairid,rxCui) values (90061,'null');
-insert into pair(pairid,level) values (90062,'C');
-insert into pair_gene(pairid,hgncId) values (90062,'CYP2C9');
-insert into pair_drug(pairid,rxCui) values (90062,'3355');
-insert into pair(pairid,level) values (90063,'C');
-insert into pair_gene(pairid,hgncId) values (90063,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90063,'30125');
-insert into pair(pairid,level) values (90064,'C');
-insert into pair_gene(pairid,hgncId) values (90064,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90064,'136198');
-insert into pair(pairid,level) values (90065,'C');
-insert into pair_gene(pairid,hgncId) values (90065,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90065,'797195');
-insert into pair(pairid,level) values (90066,'C');
-insert into pair_gene(pairid,hgncId) values (90066,'CYP3A4');
-insert into pair_drug(pairid,rxCui) values (90066,'42316');
-insert into pair(pairid,level) values (90067,'C');
-insert into pair_gene(pairid,hgncId) values (90067,'CYP3A5');
-insert into pair_drug(pairid,rxCui) values (90067,'35302');
-insert into pair(pairid,level) values (90068,'C');
-insert into pair_gene(pairid,hgncId) values (90068,'CYP3A5');
-insert into pair_drug(pairid,rxCui) values (90068,'3008');
-insert into pair(pairid,level) values (90069,'C');
-insert into pair_gene(pairid,hgncId) values (90069,'CYP3A5');
-insert into pair_drug(pairid,rxCui) values (90069,'343047');
-insert into pair(pairid,level) values (90070,'C');
-insert into pair_gene(pairid,hgncId) values (90070,'F5');
-insert into pair_drug(pairid,rxCui) values (90070,'711942');
-insert into pair(pairid,level) values (90071,'C');
-insert into pair_gene(pairid,hgncId) values (90071,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90071,'1151');
-insert into pair(pairid,level) values (90072,'C');
-insert into pair_gene(pairid,hgncId) values (90072,'HLA-B');
-insert into pair_drug(pairid,rxCui) values (90072,'3108');
-insert into pair(pairid,level) values (90073,'C');
-insert into pair_gene(pairid,hgncId) values (90073,'HLA-B');
-insert into pair_drug(pairid,rxCui) values (90073,'53654');
-insert into pair(pairid,level) values (90074,'C');
-insert into pair_gene(pairid,hgncId) values (90074,'HLA-B');
-insert into pair_drug(pairid,rxCui) values (90074,'6826');
-insert into pair(pairid,level) values (90075,'C');
-insert into pair_gene(pairid,hgncId) values (90075,'HLA-B');
-insert into pair_drug(pairid,rxCui) values (90075,'2020');
-insert into pair(pairid,level) values (90076,'C');
-insert into pair_gene(pairid,hgncId) values (90076,'HLA-B');
-insert into pair_drug(pairid,rxCui) values (90076,'6835');
-insert into pair(pairid,level) values (90077,'C');
-insert into pair_gene(pairid,hgncId) values (90077,'HLA-B');
-insert into pair_drug(pairid,rxCui) values (90077,'8794');
-insert into pair(pairid,level) values (90078,'C');
-insert into pair_gene(pairid,hgncId) values (90078,'HLA-C');
-insert into pair_drug(pairid,rxCui) values (90078,'519');
-insert into pair(pairid,level) values (90079,'C');
-insert into pair_gene(pairid,hgncId) values (90079,'HLA-C');
-insert into pair_drug(pairid,rxCui) values (90079,'6826');
-insert into pair(pairid,level) values (90080,'C');
-insert into pair_gene(pairid,hgncId) values (90080,'HLA-DPB1');
-insert into pair_drug(pairid,rxCui) values (90080,'1191');
-insert into pair(pairid,level) values (90081,'C');
-insert into pair_gene(pairid,hgncId) values (90081,'HLA-DQA1');
-insert into pair_drug(pairid,rxCui) values (90081,'480167');
-insert into pair(pairid,level) values (90082,'C');
-insert into pair_gene(pairid,hgncId) values (90082,'HLA-DRB1');
-insert into pair_drug(pairid,rxCui) values (90082,'53654');
-insert into pair(pairid,level) values (90083,'C');
-insert into pair_gene(pairid,hgncId) values (90083,'MC4R');
-insert into pair_drug(pairid,rxCui) values (90083,'null');
-insert into pair(pairid,level) values (90084,'C');
-insert into pair_gene(pairid,hgncId) values (90084,'MT-RNR1');
-insert into pair_drug(pairid,rxCui) values (90084,'null');
-insert into pair(pairid,level) values (90085,'C');
-insert into pair_gene(pairid,hgncId) values (90085,'SERPINC1');
-insert into pair_drug(pairid,rxCui) values (90085,'711942');
-insert into pair(pairid,level) values (90086,'C');
-insert into pair_gene(pairid,hgncId) values (90086,'TNF');
-insert into pair_drug(pairid,rxCui) values (90086,'null');
-insert into pair(pairid,level) values (90087,'C');
-insert into pair_gene(pairid,hgncId) values (90087,'XPC');
-insert into pair_drug(pairid,rxCui) values (90087,'2555');
-insert into pair(pairid,level) values (90088,'C/D');
-insert into pair_gene(pairid,hgncId) values (90088,'ABCB1');
-insert into pair_drug(pairid,rxCui) values (90088,'36567');
-insert into pair(pairid,level) values (90089,'C/D');
-insert into pair_gene(pairid,hgncId) values (90089,'ABCB1');
-insert into pair_drug(pairid,rxCui) values (90089,'26225');
-insert into pair(pairid,level) values (90090,'C/D');
-insert into pair_gene(pairid,hgncId) values (90090,'ABCB1');
-insert into pair_drug(pairid,rxCui) values (90090,'6851');
-insert into pair(pairid,level) values (90091,'C/D');
-insert into pair_gene(pairid,hgncId) values (90091,'ABCB1');
-insert into pair_drug(pairid,rxCui) values (90091,'4337');
-insert into pair(pairid,level) values (90092,'C/D');
-insert into pair_gene(pairid,hgncId) values (90092,'ABCB1');
-insert into pair_drug(pairid,rxCui) values (90092,'6813');
-insert into pair(pairid,level) values (90093,'C/D');
-insert into pair_gene(pairid,hgncId) values (90093,'ABCB1');
-insert into pair_drug(pairid,rxCui) values (90093,'7052');
-insert into pair(pairid,level) values (90094,'C/D');
-insert into pair_gene(pairid,hgncId) values (90094,'ABCB1');
-insert into pair_drug(pairid,rxCui) values (90094,'7804');
-insert into pair(pairid,level) values (90095,'C/D');
-insert into pair_gene(pairid,hgncId) values (90095,'ABCB1');
-insert into pair_drug(pairid,rxCui) values (90095,'10689');
-insert into pair(pairid,level) values (90096,'C/D');
-insert into pair_gene(pairid,hgncId) values (90096,'ABCB1');
-insert into pair_drug(pairid,rxCui) values (90096,'357977');
-insert into pair(pairid,level) values (90097,'C/D');
-insert into pair_gene(pairid,hgncId) values (90097,'BCHE');
-insert into pair_drug(pairid,rxCui) values (90097,'10154');
-insert into pair(pairid,level) values (90098,'C/D');
-insert into pair_gene(pairid,hgncId) values (90098,'OPRM1');
-insert into pair_drug(pairid,rxCui) values (90098,'448');
-insert into pair(pairid,level) values (90099,'C/D');
-insert into pair_gene(pairid,hgncId) values (90099,'OPRM1');
-insert into pair_drug(pairid,rxCui) values (90099,'480');
-insert into pair(pairid,level) values (90100,'C/D');
-insert into pair_gene(pairid,hgncId) values (90100,'OPRM1');
-insert into pair_drug(pairid,rxCui) values (90100,'4337');
-insert into pair(pairid,level) values (90101,'C/D');
-insert into pair_gene(pairid,hgncId) values (90101,'OPRM1');
-insert into pair_drug(pairid,rxCui) values (90101,'7243');
-insert into pair(pairid,level) values (90102,'C/D');
-insert into pair_gene(pairid,hgncId) values (90102,'OPRM1');
-insert into pair_drug(pairid,rxCui) values (90102,'6813');
-insert into pair(pairid,level) values (90103,'C/D');
-insert into pair_gene(pairid,hgncId) values (90103,'OPRM1');
-insert into pair_drug(pairid,rxCui) values (90103,'10689');
-insert into pair(pairid,level) values (90104,'D');
-insert into pair_gene(pairid,hgncId) values (90104,'ACE');
-insert into pair_drug(pairid,rxCui) values (90104,'1998');
-insert into pair(pairid,level) values (90105,'D');
-insert into pair_gene(pairid,hgncId) values (90105,'ANKK1');
-insert into pair_drug(pairid,rxCui) values (90105,'448');
-insert into pair(pairid,level) values (90106,'D');
-insert into pair_gene(pairid,hgncId) values (90106,'APOE');
-insert into pair_drug(pairid,rxCui) values (90106,'83367');
-insert into pair(pairid,level) values (90107,'D');
-insert into pair_gene(pairid,hgncId) values (90107,'C8orf34');
-insert into pair_drug(pairid,rxCui) values (90107,'51499');
-insert into pair(pairid,level) values (90108,'D');
-insert into pair_gene(pairid,hgncId) values (90108,'CCHCR1');
-insert into pair_drug(pairid,rxCui) values (90108,'53654');
-insert into pair(pairid,level) values (90109,'D');
-insert into pair_gene(pairid,hgncId) values (90109,'CETP');
-insert into pair_drug(pairid,rxCui) values (90109,'null');
-insert into pair(pairid,level) values (90110,'D');
-insert into pair_gene(pairid,hgncId) values (90110,'CHRNA3');
-insert into pair_drug(pairid,rxCui) values (90110,'7407');
-insert into pair(pairid,level) values (90111,'D');
-insert into pair_gene(pairid,hgncId) values (90111,'CRHR1');
-insert into pair_drug(pairid,rxCui) values (90111,'50121');
-insert into pair(pairid,level) values (90112,'D');
-insert into pair_gene(pairid,hgncId) values (90112,'CRHR1');
-insert into pair_drug(pairid,rxCui) values (90112,'284635');
-insert into pair(pairid,level) values (90113,'D');
-insert into pair_gene(pairid,hgncId) values (90113,'CRHR1');
-insert into pair_drug(pairid,rxCui) values (90113,'10759');
-insert into pair(pairid,level) values (90114,'D');
-insert into pair_gene(pairid,hgncId) values (90114,'CYB5R2');
-insert into pair_drug(pairid,rxCui) values (90114,'6915');
-insert into pair(pairid,level) values (90115,'D');
-insert into pair_gene(pairid,hgncId) values (90115,'CYB5R3');
-insert into pair_drug(pairid,rxCui) values (90115,'6915');
-insert into pair(pairid,level) values (90116,'D');
-insert into pair_gene(pairid,hgncId) values (90116,'CYB5R4');
-insert into pair_drug(pairid,rxCui) values (90116,'6915');
-insert into pair(pairid,level) values (90117,'D');
-insert into pair_gene(pairid,hgncId) values (90117,'DYNC2H1');
-insert into pair_drug(pairid,rxCui) values (90117,'4179');
-insert into pair(pairid,level) values (90118,'D');
-insert into pair_gene(pairid,hgncId) values (90118,'DYNC2H1');
-insert into pair_drug(pairid,rxCui) values (90118,'null');
-insert into pair(pairid,level) values (90119,'D');
-insert into pair_gene(pairid,hgncId) values (90119,'FKBP5');
-insert into pair_drug(pairid,rxCui) values (90119,'null');
-insert into pair(pairid,level) values (90120,'D');
-insert into pair_gene(pairid,hgncId) values (90120,'GP1BA');
-insert into pair_drug(pairid,rxCui) values (90120,'1191');
-insert into pair(pairid,level) values (90121,'D');
-insert into pair_gene(pairid,hgncId) values (90121,'GRIK4');
-insert into pair_drug(pairid,rxCui) values (90121,'null');
-insert into pair(pairid,level) values (90122,'D');
-insert into pair_gene(pairid,hgncId) values (90122,'GSTM1');
-insert into pair_drug(pairid,rxCui) values (90122,'2555');
-insert into pair(pairid,level) values (90123,'D');
-insert into pair_gene(pairid,hgncId) values (90123,'GSTM1');
-insert into pair_drug(pairid,rxCui) values (90123,'32592');
-insert into pair(pairid,level) values (90124,'D');
-insert into pair_gene(pairid,hgncId) values (90124,'HAS3');
-insert into pair_drug(pairid,rxCui) values (90124,'null');
-insert into pair(pairid,level) values (90125,'D');
-insert into pair_gene(pairid,hgncId) values (90125,'HTR1A');
-insert into pair_drug(pairid,rxCui) values (90125,'32937');
-insert into pair(pairid,level) values (90126,'D');
-insert into pair_gene(pairid,hgncId) values (90126,'HTR2A');
-insert into pair_drug(pairid,rxCui) values (90126,'null');
-insert into pair(pairid,level) values (90127,'D');
-insert into pair_gene(pairid,hgncId) values (90127,'IFNL4');
-insert into pair_drug(pairid,rxCui) values (90127,'120608');
-insert into pair_drug(pairid,rxCui) values (90127,'253453');
-insert into pair(pairid,level) values (90128,'D');
-insert into pair_gene(pairid,hgncId) values (90128,'KIF6');
-insert into pair_drug(pairid,rxCui) values (90128,'42463');
-insert into pair(pairid,level) values (90129,'D');
-insert into pair_gene(pairid,hgncId) values (90129,'KIF6');
-insert into pair_drug(pairid,rxCui) values (90129,'83367');
-insert into pair(pairid,level) values (90130,'D');
-insert into pair_gene(pairid,hgncId) values (90130,'LPA');
-insert into pair_drug(pairid,rxCui) values (90130,'null');
-insert into pair(pairid,level) values (90131,'D');
-insert into pair_gene(pairid,hgncId) values (90131,'NEDD4L');
-insert into pair_drug(pairid,rxCui) values (90131,'5487');
-insert into pair(pairid,level) values (90132,'D');
-insert into pair_gene(pairid,hgncId) values (90132,'NQO1');
-insert into pair_drug(pairid,rxCui) values (90132,'null');
-insert into pair(pairid,level) values (90133,'D');
-insert into pair_gene(pairid,hgncId) values (90133,'NQO1');
-insert into pair_drug(pairid,rxCui) values (90133,'null');
-insert into pair(pairid,level) values (90134,'D');
-insert into pair_gene(pairid,hgncId) values (90134,'NQO1');
-insert into pair_drug(pairid,rxCui) values (90134,'4492');
-insert into pair(pairid,level) values (90135,'D');
-insert into pair_gene(pairid,hgncId) values (90135,'NQO1');
-insert into pair_drug(pairid,rxCui) values (90135,'null');
-insert into pair(pairid,level) values (90136,'D');
-insert into pair_gene(pairid,hgncId) values (90136,'NT5C2');
-insert into pair_drug(pairid,rxCui) values (90136,'12574');
-insert into pair(pairid,level) values (90137,'D');
-insert into pair_gene(pairid,hgncId) values (90137,'PRKCA');
-insert into pair_drug(pairid,rxCui) values (90137,'5487');
-insert into pair(pairid,level) values (90138,'D');
-insert into pair_gene(pairid,hgncId) values (90138,'PROC');
-insert into pair_drug(pairid,rxCui) values (90138,'11289');
-insert into pair(pairid,level) values (90139,'D');
-insert into pair_gene(pairid,hgncId) values (90139,'PROS1');
-insert into pair_drug(pairid,rxCui) values (90139,'11289');
-insert into pair(pairid,level) values (90140,'D');
-insert into pair_gene(pairid,hgncId) values (90140,'PTGFR');
-insert into pair_drug(pairid,rxCui) values (90140,'43611');
-insert into pair(pairid,level) values (90141,'D');
-insert into pair_gene(pairid,hgncId) values (90141,'PTGS1');
-insert into pair_drug(pairid,rxCui) values (90141,'1191');
-insert into pair(pairid,level) values (90142,'D');
-insert into pair_gene(pairid,hgncId) values (90142,'SEMA3C');
-insert into pair_drug(pairid,rxCui) values (90142,'51499');
-insert into pair(pairid,level) values (90143,'D');
-insert into pair_gene(pairid,hgncId) values (90143,'SLC47A2');
-insert into pair_drug(pairid,rxCui) values (90143,'6809');
-insert into pair(pairid,level) values (90144,'D');
-insert into pair_gene(pairid,hgncId) values (90144,'TANC1');
-insert into pair_drug(pairid,rxCui) values (90144,'null');
-insert into pair(pairid,level) values (90145,'B');
-insert into pair_gene(pairid,hgncId) values (90145,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90145,'8886');
-insert into pair(pairid,level) values (90146,'A');
-insert into pair_gene(pairid,hgncId) values (90146,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90146,'7804');
-insert into pair(pairid,level) values (90147,'A');
-insert into pair_gene(pairid,hgncId) values (90147,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90147,'10689');
-insert into pair(pairid,level) values (90148,'A');
-insert into pair_gene(pairid,hgncId) values (90148,'UGT1A1');
-insert into pair_drug(pairid,rxCui) values (90148,'51499');
-insert into pair(pairid,level) values (90149,'B');
-insert into pair_gene(pairid,hgncId) values (90149,'CYP2C19');
-insert into pair_drug(pairid,rxCui) values (90149,'283742');
-insert into pair(pairid,level) values (90150,'B');
-insert into pair_gene(pairid,hgncId) values (90150,'CYP2C19');
-insert into pair_drug(pairid,rxCui) values (90150,'17128');
-insert into pair(pairid,level) values (90151,'B');
-insert into pair_gene(pairid,hgncId) values (90151,'CYP2C19');
-insert into pair_drug(pairid,rxCui) values (90151,'7646');
-insert into pair(pairid,level) values (90152,'B');
-insert into pair_gene(pairid,hgncId) values (90152,'CYP2C19');
-insert into pair_drug(pairid,rxCui) values (90152,'114979');
-insert into pair(pairid,level) values (90153,'B');
-insert into pair_gene(pairid,hgncId) values (90153,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90153,'15996');
-insert into pair(pairid,level) values (90154,'B');
-insert into pair_gene(pairid,hgncId) values (90154,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90154,'39786');
-insert into pair(pairid,level) values (90155,'B');
-insert into pair_gene(pairid,hgncId) values (90155,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90155,'38400');
-insert into pair(pairid,level) values (90156,'B');
-insert into pair_gene(pairid,hgncId) values (90156,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90156,'6901');
-insert into pair(pairid,level) values (90157,'A');
-insert into pair_gene(pairid,hgncId) values (90157,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90157,'10324');
-insert into pair(pairid,level) values (90158,'C');
-insert into pair_gene(pairid,hgncId) values (90158,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90158,'4493');
-insert into pair(pairid,level) values (90159,'B');
-insert into pair_gene(pairid,hgncId) values (90159,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90159,'36437');
-insert into pair(pairid,level) values (90160,'B');
-insert into pair_gene(pairid,hgncId) values (90160,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90160,'2348');
-insert into pair(pairid,level) values (90161,'B');
-insert into pair_gene(pairid,hgncId) values (90161,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90161,'2393');
-insert into pair(pairid,level) values (90162,'B');
-insert into pair_gene(pairid,hgncId) values (90162,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90162,'2551');
-insert into pair(pairid,level) values (90163,'B');
-insert into pair_gene(pairid,hgncId) values (90163,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90163,'3108');
-insert into pair(pairid,level) values (90164,'B');
-insert into pair_gene(pairid,hgncId) values (90164,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90164,'3445');
-insert into pair(pairid,level) values (90165,'B');
-insert into pair_gene(pairid,hgncId) values (90165,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90165,'5521');
-insert into pair(pairid,level) values (90166,'B');
-insert into pair_gene(pairid,hgncId) values (90166,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90166,'82122');
-insert into pair(pairid,level) values (90167,'B');
-insert into pair_gene(pairid,hgncId) values (90167,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90167,'6694');
-insert into pair(pairid,level) values (90168,'B');
-insert into pair_gene(pairid,hgncId) values (90168,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90168,'52582');
-insert into pair(pairid,level) values (90169,'B');
-insert into pair_gene(pairid,hgncId) values (90169,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90169,'6878');
-insert into pair(pairid,level) values (90170,'B');
-insert into pair_gene(pairid,hgncId) values (90170,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90170,'139462');
-insert into pair(pairid,level) values (90171,'B');
-insert into pair_gene(pairid,hgncId) values (90171,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90171,'7454');
-insert into pair(pairid,level) values (90172,'B');
-insert into pair_gene(pairid,hgncId) values (90172,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90172,'7517');
-insert into pair(pairid,level) values (90173,'B');
-insert into pair_gene(pairid,hgncId) values (90173,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90173,'8120');
-insert into pair(pairid,level) values (90174,'B');
-insert into pair_gene(pairid,hgncId) values (90174,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90174,'8687');
-insert into pair(pairid,level) values (90175,'B');
-insert into pair_gene(pairid,hgncId) values (90175,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90175,'8698');
-insert into pair(pairid,level) values (90176,'B');
-insert into pair_gene(pairid,hgncId) values (90176,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90176,'10169');
-insert into pair(pairid,level) values (90177,'B');
-insert into pair_gene(pairid,hgncId) values (90177,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90177,'10831');
-insert into pair(pairid,level) values (90178,'B');
-insert into pair_gene(pairid,hgncId) values (90178,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90178,'9524');
-insert into pair(pairid,level) values (90179,'B');
-insert into pair_gene(pairid,hgncId) values (90179,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90179,'89013');
-insert into pair(pairid,level) values (90180,'B');
-insert into pair_gene(pairid,hgncId) values (90180,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90180,'35636');
-insert into pair(pairid,level) values (90181,'B');
-insert into pair_gene(pairid,hgncId) values (90181,'RYR1');
-insert into pair_drug(pairid,rxCui) values (90181,'10154');
-insert into pair(pairid,level) values (90182,'B');
-insert into pair_gene(pairid,hgncId) values (90182,'CYP2C9');
-insert into pair_drug(pairid,rxCui) values (90182,'140587');
-insert into pair(pairid,level) values (90183,'B');
-insert into pair_gene(pairid,hgncId) values (90183,'CYP4F2');
-insert into pair_drug(pairid,rxCui) values (90183,'154');
-insert into pair(pairid,level) values (90184,'B');
-insert into pair_gene(pairid,hgncId) values (90184,'CYP4F2');
-insert into pair_drug(pairid,rxCui) values (90184,'8150');
-insert into pair(pairid,level) values (90185,'B');
-insert into pair_gene(pairid,hgncId) values (90185,'CYP4F2');
-insert into pair_drug(pairid,rxCui) values (90185,'11289');
-insert into pair(pairid,level) values (90186,'C');
-insert into pair_gene(pairid,hgncId) values (90186,'CYP2C19');
-insert into pair_drug(pairid,rxCui) values (90186,'3322');
-insert into pair(pairid,level) values (90187,'C');
-insert into pair_gene(pairid,hgncId) values (90187,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90187,'2626');
-insert into pair(pairid,level) values (90188,'C');
-insert into pair_gene(pairid,hgncId) values (90188,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90188,'5093');
-insert into pair(pairid,level) values (90189,'C');
-insert into pair_gene(pairid,hgncId) values (90189,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90189,'61381');
-insert into pair(pairid,level) values (90190,'C');
-insert into pair_gene(pairid,hgncId) values (90190,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90190,'10502');
-insert into pair(pairid,level) values (90191,'C');
-insert into pair_gene(pairid,hgncId) values (90191,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90191,'114176');
-insert into pair(pairid,level) values (90192,'C');
-insert into pair_gene(pairid,hgncId) values (90192,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90192,'44281');
-insert into pair(pairid,level) values (90193,'C');
-insert into pair_gene(pairid,hgncId) values (90193,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90193,'4441');
-insert into pair(pairid,level) values (90194,'C');
-insert into pair_gene(pairid,hgncId) values (90194,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90194,'8754');
-insert into pair(pairid,level) values (90195,'C');
-insert into pair_gene(pairid,hgncId) values (90195,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90195,'37801');
-insert into pair(pairid,level) values (90196,'C');
-insert into pair_gene(pairid,hgncId) values (90196,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90196,'10390');
-insert into pair(pairid,level) values (90197,'C');
-insert into pair_gene(pairid,hgncId) values (90197,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90197,'69120');
-insert into pair(pairid,level) values (90198,'C');
-insert into pair_gene(pairid,hgncId) values (90198,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90198,'119565');
-insert into pair(pairid,level) values (90199,'C');
-insert into pair_gene(pairid,hgncId) values (90199,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90199,'20352');
-insert into pair(pairid,level) values (90200,'C');
-insert into pair_gene(pairid,hgncId) values (90200,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90200,'6918');
-insert into pair(pairid,level) values (90201,'C');
-insert into pair_gene(pairid,hgncId) values (90201,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90201,'8787');
-insert into pair(pairid,level) values (90202,'C');
-insert into pair_gene(pairid,hgncId) values (90202,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90202,'10600');
-insert into pair(pairid,level) values (90203,'C');
-insert into pair_gene(pairid,hgncId) values (90203,'F5');
-insert into pair_drug(pairid,rxCui) values (90203,'null');
-insert into pair(pairid,level) values (90204,'C');
-insert into pair_gene(pairid,hgncId) values (90204,'UGT1A1');
-insert into pair_drug(pairid,rxCui) values (90204,'662281');
-insert into pair(pairid,level) values (90205,'C');
-insert into pair_gene(pairid,hgncId) values (90205,'MTHFR');
-insert into pair_drug(pairid,rxCui) values (90205,'194000');
-insert into pair(pairid,level) values (90206,'C');
-insert into pair_gene(pairid,hgncId) values (90206,'MTHFR');
-insert into pair_drug(pairid,rxCui) values (90206,'40048');
-insert into pair(pairid,level) values (90207,'C');
-insert into pair_gene(pairid,hgncId) values (90207,'MTHFR');
-insert into pair_drug(pairid,rxCui) values (90207,'3002');
-insert into pair(pairid,level) values (90208,'C');
-insert into pair_gene(pairid,hgncId) values (90208,'MTHFR');
-insert into pair_drug(pairid,rxCui) values (90208,'4492');
-insert into pair(pairid,level) values (90209,'C');
-insert into pair_gene(pairid,hgncId) values (90209,'MTHFR');
-insert into pair_drug(pairid,rxCui) values (90209,'6313');
-insert into pair(pairid,level) values (90210,'C');
-insert into pair_gene(pairid,hgncId) values (90210,'MTHFR');
-insert into pair_drug(pairid,rxCui) values (90210,'6851');
-insert into pair(pairid,level) values (90211,'C');
-insert into pair_gene(pairid,hgncId) values (90211,'MTHFR');
-insert into pair_drug(pairid,rxCui) values (90211,'32592');
-insert into pair(pairid,level) values (90212,'C');
-insert into pair_gene(pairid,hgncId) values (90212,'NAT2');
-insert into pair_drug(pairid,rxCui) values (90212,'6038');
-insert into pair(pairid,level) values (90213,'C');
-insert into pair_gene(pairid,hgncId) values (90213,'DRD2');
-insert into pair_drug(pairid,rxCui) values (90213,'35636');
-insert into pair(pairid,level) values (90214,'B');
-insert into pair_gene(pairid,hgncId) values (90214,'SCN1A');
-insert into pair_drug(pairid,rxCui) values (90214,'2002');
-insert into pair(pairid,level) values (90215,'C/D');
-insert into pair_gene(pairid,hgncId) values (90215,'COMT');
-insert into pair_drug(pairid,rxCui) values (90215,'2555');
-insert into pair(pairid,level) values (90216,'C/D');
-insert into pair_gene(pairid,hgncId) values (90216,'CES1');
-insert into pair_drug(pairid,rxCui) values (90216,'32968');
-insert into pair(pairid,level) values (90217,'C/D');
-insert into pair_gene(pairid,hgncId) values (90217,'GSTP1');
-insert into pair_drug(pairid,rxCui) values (90217,'3002');
-insert into pair(pairid,level) values (90218,'C/D');
-insert into pair_gene(pairid,hgncId) values (90218,'ABCB1');
-insert into pair_drug(pairid,rxCui) values (90218,'3407');
-insert into pair(pairid,level) values (90219,'C/D');
-insert into pair_gene(pairid,hgncId) values (90219,'CYP2A7P1');
-insert into pair_drug(pairid,rxCui) values (90219,'195085');
-insert into pair(pairid,level) values (90220,'B');
-insert into pair_gene(pairid,hgncId) values (90220,'CYP2B6');
-insert into pair_drug(pairid,rxCui) values (90220,'195085');
-insert into pair(pairid,level) values (90221,'C/D');
-insert into pair_gene(pairid,hgncId) values (90221,'GSTP1');
-insert into pair_drug(pairid,rxCui) values (90221,'3995');
-insert into pair(pairid,level) values (90222,'C/D');
-insert into pair_gene(pairid,hgncId) values (90222,'GSTP1');
-insert into pair_drug(pairid,rxCui) values (90222,'4492');
-insert into pair(pairid,level) values (90223,'C/D');
-insert into pair_gene(pairid,hgncId) values (90223,'ITPA');
-insert into pair_drug(pairid,rxCui) values (90223,'5880');
-insert into pair(pairid,level) values (90224,'C/D');
-insert into pair_gene(pairid,hgncId) values (90224,'OPRM1');
-insert into pair_drug(pairid,rxCui) values (90224,'7052');
-insert into pair(pairid,level) values (90225,'C/D');
-insert into pair_gene(pairid,hgncId) values (90225,'OPRM1');
-insert into pair_drug(pairid,rxCui) values (90225,'7242');
-insert into pair(pairid,level) values (90226,'C/D');
-insert into pair_gene(pairid,hgncId) values (90226,'ABCB1');
-insert into pair_drug(pairid,rxCui) values (90226,'53654');
-insert into pair(pairid,level) values (90227,'C/D');
-insert into pair_gene(pairid,hgncId) values (90227,'CYP2A7P1');
-insert into pair_drug(pairid,rxCui) values (90227,'53654');
-insert into pair(pairid,level) values (90228,'B');
-insert into pair_gene(pairid,hgncId) values (90228,'CYP2B6');
-insert into pair_drug(pairid,rxCui) values (90228,'53654');
-insert into pair(pairid,level) values (90229,'C/D');
-insert into pair_gene(pairid,hgncId) values (90229,'COMT');
-insert into pair_drug(pairid,rxCui) values (90229,'7407');
-insert into pair(pairid,level) values (90230,'C/D');
-insert into pair_gene(pairid,hgncId) values (90230,'GSTP1');
-insert into pair_drug(pairid,rxCui) values (90230,'32592');
-insert into pair(pairid,level) values (90231,'B');
-insert into pair_gene(pairid,hgncId) values (90231,'SCN1A');
-insert into pair_drug(pairid,rxCui) values (90231,'8183');
-insert into pair(pairid,level) values (90232,'C/D');
-insert into pair_gene(pairid,hgncId) values (90232,'GSTP1');
-insert into pair_drug(pairid,rxCui) values (90232,'null');
-insert into pair(pairid,level) values (90233,'C/D');
-insert into pair_gene(pairid,hgncId) values (90233,'ADRB2');
-insert into pair_drug(pairid,rxCui) values (90233,'435');
-insert into pair(pairid,level) values (90234,'C/D');
-insert into pair_gene(pairid,hgncId) values (90234,'ADRB2');
-insert into pair_drug(pairid,rxCui) values (90234,'36117');
-insert into pair(pairid,level) values (90235,'D');
-insert into pair_gene(pairid,hgncId) values (90235,'CBR3');
-insert into pair_drug(pairid,rxCui) values (90235,'null');
-insert into pair(pairid,level) values (90236,'D');
-insert into pair_gene(pairid,hgncId) values (90236,'ANKK1');
-insert into pair_drug(pairid,rxCui) values (90236,'null');
-insert into pair(pairid,level) values (90237,'D');
-insert into pair_gene(pairid,hgncId) values (90237,'LTC4S');
-insert into pair_drug(pairid,rxCui) values (90237,'1191');
-insert into pair(pairid,level) values (90238,'D');
-insert into pair_gene(pairid,hgncId) values (90238,'COQ2');
-insert into pair_drug(pairid,rxCui) values (90238,'83367');
-insert into pair(pairid,level) values (90239,'D');
-insert into pair_gene(pairid,hgncId) values (90239,'FDPS');
-insert into pair_drug(pairid,rxCui) values (90239,'null');
-insert into pair(pairid,level) values (90240,'D');
-insert into pair_gene(pairid,hgncId) values (90240,'CRHR1');
-insert into pair_drug(pairid,rxCui) values (90240,'19831');
-insert into pair(pairid,level) values (90241,'D');
-insert into pair_gene(pairid,hgncId) values (90241,'ANKK1');
-insert into pair_drug(pairid,rxCui) values (90241,'42347');
-insert into pair(pairid,level) values (90242,'D');
-insert into pair_gene(pairid,hgncId) values (90242,'ADORA2A');
-insert into pair_drug(pairid,rxCui) values (90242,'1886');
-insert into pair(pairid,level) values (90243,'D');
-insert into pair_gene(pairid,hgncId) values (90243,'FLOT1');
-insert into pair_drug(pairid,rxCui) values (90243,'2002');
-insert into pair(pairid,level) values (90244,'D');
-insert into pair_gene(pairid,hgncId) values (90244,'EPHX1');
-insert into pair_drug(pairid,rxCui) values (90244,'2002');
-insert into pair(pairid,level) values (90245,'D');
-insert into pair_gene(pairid,hgncId) values (90245,'FCGR3A');
-insert into pair_drug(pairid,rxCui) values (90245,'318341');
-insert into pair(pairid,level) values (90246,'D');
-insert into pair_gene(pairid,hgncId) values (90246,'EGF');
-insert into pair_drug(pairid,rxCui) values (90246,'318341');
-insert into pair(pairid,level) values (90247,'D');
-insert into pair_gene(pairid,hgncId) values (90247,'TMEM43');
-insert into pair_drug(pairid,rxCui) values (90247,'2555');
-insert into pair(pairid,level) values (90248,'D');
-insert into pair_gene(pairid,hgncId) values (90248,'TP53');
-insert into pair_drug(pairid,rxCui) values (90248,'2555');
-insert into pair(pairid,level) values (90249,'D');
-insert into pair_gene(pairid,hgncId) values (90249,'GRIK4');
-insert into pair_drug(pairid,rxCui) values (90249,'2556');
-insert into pair(pairid,level) values (90250,'D');
-insert into pair_gene(pairid,hgncId) values (90250,'HTR2A');
-insert into pair_drug(pairid,rxCui) values (90250,'2556');
-insert into pair(pairid,level) values (90251,'D');
-insert into pair_gene(pairid,hgncId) values (90251,'HTR2C');
-insert into pair_drug(pairid,rxCui) values (90251,'2626');
-insert into pair(pairid,level) values (90252,'D');
-insert into pair_gene(pairid,hgncId) values (90252,'SOD2');
-insert into pair_drug(pairid,rxCui) values (90252,'3002');
-insert into pair(pairid,level) values (90253,'D');
-insert into pair_gene(pairid,hgncId) values (90253,'TP53');
-insert into pair_drug(pairid,rxCui) values (90253,'3002');
-insert into pair(pairid,level) values (90254,'D');
-insert into pair_gene(pairid,hgncId) values (90254,'UMPS');
-insert into pair_drug(pairid,rxCui) values (90254,'4492');
-insert into pair(pairid,level) values (90255,'D');
-insert into pair_gene(pairid,hgncId) values (90255,'ADD1');
-insert into pair_drug(pairid,rxCui) values (90255,'4603');
-insert into pair(pairid,level) values (90256,'D');
-insert into pair_gene(pairid,hgncId) values (90256,'YEATS4');
-insert into pair_drug(pairid,rxCui) values (90256,'5487');
-insert into pair(pairid,level) values (90257,'D');
-insert into pair_gene(pairid,hgncId) values (90257,'C11orf65');
-insert into pair_drug(pairid,rxCui) values (90257,'6809');
-insert into pair(pairid,level) values (90258,'D');
-insert into pair_gene(pairid,hgncId) values (90258,'MTRR');
-insert into pair_drug(pairid,rxCui) values (90258,'6851');
-insert into pair(pairid,level) values (90259,'D');
-insert into pair_gene(pairid,hgncId) values (90259,'ATIC');
-insert into pair_drug(pairid,rxCui) values (90259,'6851');
-insert into pair(pairid,level) values (90260,'D');
-insert into pair_gene(pairid,hgncId) values (90260,'HTR2C');
-insert into pair_drug(pairid,rxCui) values (90260,'61381');
-insert into pair(pairid,level) values (90261,'D');
-insert into pair_gene(pairid,hgncId) values (90261,'UGT2B15');
-insert into pair_drug(pairid,rxCui) values (90261,'7781');
-insert into pair(pairid,level) values (90262,'D');
-insert into pair_gene(pairid,hgncId) values (90262,'ERCC1');
-insert into pair_drug(pairid,rxCui) values (90262,'null');
-insert into pair(pairid,level) values (90263,'D');
-insert into pair_gene(pairid,hgncId) values (90263,'XRCC1');
-insert into pair_drug(pairid,rxCui) values (90263,'1311280');
-insert into pair(pairid,level) values (90264,'D');
-insert into pair_gene(pairid,hgncId) values (90264,'HTR2C');
-insert into pair_drug(pairid,rxCui) values (90264,'35636');
-insert into pair(pairid,level) values (90265,'D');
-insert into pair_gene(pairid,hgncId) values (90265,'FCGR3A');
-insert into pair_drug(pairid,rxCui) values (90265,'121191');
-insert into pair(pairid,level) values (90266,'D');
-insert into pair_gene(pairid,hgncId) values (90266,'ABCG2');
-insert into pair_drug(pairid,rxCui) values (90266,'301542');
-insert into pair(pairid,level) values (90267,'D');
-insert into pair_gene(pairid,hgncId) values (90267,'COQ2');
-insert into pair_drug(pairid,rxCui) values (90267,'301542');
-insert into pair(pairid,level) values (90268,'D');
-insert into pair_gene(pairid,hgncId) values (90268,'COL22A1');
-insert into pair_drug(pairid,rxCui) values (90268,'435');
-insert into pair(pairid,level) values (90269,'D');
-insert into pair_gene(pairid,hgncId) values (90269,'CRHR2');
-insert into pair_drug(pairid,rxCui) values (90269,'435');
-insert into pair(pairid,level) values (90270,'D');
-insert into pair_gene(pairid,hgncId) values (90270,'GNB3');
-insert into pair_drug(pairid,rxCui) values (90270,'136411');
-insert into pair(pairid,level) values (90271,'D');
-insert into pair_gene(pairid,hgncId) values (90271,'ADD1');
-insert into pair_drug(pairid,rxCui) values (90271,'9997');
-insert into pair(pairid,level) values (90272,'D');
-insert into pair_gene(pairid,hgncId) values (90272,'HMGCR');
-insert into pair_drug(pairid,rxCui) values (90272,'null');
-insert into pair(pairid,level) values (90273,'D');
-insert into pair_gene(pairid,hgncId) values (90273,'ABCC4');
-insert into pair_drug(pairid,rxCui) values (90273,'117466');
-insert into pair(pairid,level) values (90274,'D');
-insert into pair_gene(pairid,hgncId) values (90274,'GGCX');
-insert into pair_drug(pairid,rxCui) values (90274,'11289');
-insert into pair(pairid,level) values (90275,'D');
-insert into pair_gene(pairid,hgncId) values (90275,'CALU');
-insert into pair_drug(pairid,rxCui) values (90275,'11289');
-insert into pair(pairid,level) values (90276,'D');
-insert into pair_gene(pairid,hgncId) values (90276,'TCF7L2');
-insert into pair_drug(pairid,rxCui) values (90276,'null');
-insert into pair(pairid,level) values (90277,'B');
-insert into pair_gene(pairid,hgncId) values (90277,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90277,'9071');
-insert into pair(pairid,level) values (90278,'B');
-insert into pair_gene(pairid,hgncId) values (90278,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90278,'9894');
-insert into pair(pairid,level) values (90279,'B');
-insert into pair_gene(pairid,hgncId) values (90279,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90279,'2404');
-insert into pair(pairid,level) values (90280,'C');
-insert into pair_gene(pairid,hgncId) values (90280,'CYP2C19');
-insert into pair_drug(pairid,rxCui) values (90280,'21241');
-insert into pair(pairid,level) values (90281,'B/C');
-insert into pair_gene(pairid,hgncId) values (90281,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90281,'1424911');
-insert into pair(pairid,level) values (90282,'B');
-insert into pair_gene(pairid,hgncId) values (90282,'CYP2C19');
-insert into pair_drug(pairid,rxCui) values (90282,'816346');
-insert into pair(pairid,level) values (90283,'B/C');
-insert into pair_gene(pairid,hgncId) values (90283,'CYP2C19');
-insert into pair_drug(pairid,rxCui) values (90283,'2101');
-insert into pair(pairid,level) values (90284,'B');
-insert into pair_gene(pairid,hgncId) values (90284,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90284,'4815');
-insert into pair(pairid,level) values (90285,'D');
-insert into pair_gene(pairid,hgncId) values (90285,'CYB5R1');
-insert into pair_drug(pairid,rxCui) values (90285,'6915');
-insert into pair(pairid,level) values (90286,'B');
-insert into pair_gene(pairid,hgncId) values (90286,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90286,'8331');
-insert into pair(pairid,level) values (90287,'C');
-insert into pair_gene(pairid,hgncId) values (90287,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90287,'70561');
-insert into pair(pairid,level) values (90288,'B/C');
-insert into pair_gene(pairid,hgncId) values (90288,'CYP2C9');
-insert into pair_drug(pairid,rxCui) values (90288,'4502');
-insert into pair(pairid,level) values (90289,'D');
-insert into pair_gene(pairid,hgncId) values (90289,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90289,'4637');
-insert into pair(pairid,level) values (90290,'B');
-insert into pair_gene(pairid,hgncId) values (90290,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90290,'25789');
-insert into pair(pairid,level) values (90291,'B');
-insert into pair_gene(pairid,hgncId) values (90291,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90291,'4821');
-insert into pair(pairid,level) values (90292,'B/C');
-insert into pair_gene(pairid,hgncId) values (90292,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90292,'73178');
-insert into pair(pairid,level) values (90293,'D');
-insert into pair_gene(pairid,hgncId) values (90293,'NAT1');
-insert into pair_gene(pairid,hgncId) values (90293,'NAT2');
-insert into pair_drug(pairid,rxCui) values (90293,'5470');
-insert into pair_drug(pairid,rxCui) values (90293,'6058');
-insert into pair(pairid,level) values (90294,'B');
-insert into pair_gene(pairid,hgncId) values (90294,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90294,'6572');
-insert into pair(pairid,level) values (90295,'B');
-insert into pair_gene(pairid,hgncId) values (90295,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90295,'7240');
-insert into pair(pairid,level) values (90296,'B');
-insert into pair_gene(pairid,hgncId) values (90296,'CYP2C19');
-insert into pair_drug(pairid,rxCui) values (90296,'40790');
-insert into pair(pairid,level) values (90297,'B/C');
-insert into pair_gene(pairid,hgncId) values (90297,'UGT1A1');
-insert into pair_drug(pairid,rxCui) values (90297,'714438');
-insert into pair(pairid,level) values (90298,'B');
-insert into pair_gene(pairid,hgncId) values (90298,'G6PD');
-insert into pair_drug(pairid,rxCui) values (90298,'1011650');
-insert into pair(pairid,level) values (90299,'B/C');
-insert into pair_gene(pairid,hgncId) values (90299,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90299,'8076');
-insert into pair(pairid,level) values (90300,'B');
-insert into pair_gene(pairid,hgncId) values (90300,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90300,'1455099');
-insert into pair(pairid,level) values (90301,'C');
-insert into pair_gene(pairid,hgncId) values (90301,'CYP2D6');
-insert into pair_drug(pairid,rxCui) values (90301,'68091');
+\copy pair(hgncId,drugName,pgkbGuidelineId,level,pgkbCALevel,pgxTesting,citations) from STDIN;
+HLA-B	abacavir	PA166104997	A	1A	Testing required	{'22378157','24561393'}
+HLA-B	allopurinol	PA166105003	A	1A		{'23232549','26094938'}
+CYP2C19	amitriptyline	PA166105006	A	1A		{'23486447','27997040'}
+CYP2D6	amitriptyline	PA166105006	A	1A	Actionable PGx	{'23486447','27997040'}
+UGT1A1	atazanavir	PA166128738	A	1A		{'26417955'}
+TPMT	azathioprine	PA166104933	A	1A	Testing recommended	{'21270794','23422873'}
+DPYD	capecitabine	PA166109594	A	1A	Actionable PGx	{'23988873','29152729'}
+HLA-A	carbamazepine	PA166153254	A	2B	Actionable PGx	{}
+HLA-B	carbamazepine	PA166105008	A	1A	Testing required	{'23695185'}
+CYP2C19	clopidogrel	PA166104948	A	1A	Actionable PGx	{'21716271','23698643'}
+CYP2D6	codeine	PA166104996	A	1A	Actionable PGx	{'22205192','24458010'}
+CACNA1S	desflurane	PA166153253	A	3	Actionable PGx	{}
+RYR1	desflurane	PA166153257	A	3	Actionable PGx	{}
+DPYD	fluorouracil	PA166122686	A	1A	Actionable PGx	{'23988873','29152729'}
+CYP2D6	fluvoxamine	PA166127637	A	1A	Actionable PGx	{'25974703'}
+UGT1A1	irinotecan	PA166116092	A	2A	Actionable PGx	{}
+CACNA1S	isoflurane	PA166153251	A	3	Actionable PGx	{}
+RYR1	isoflurane	PA166153255	A	3	Actionable PGx	{}
+CFTR	ivacaftor	PA166114461	A	1A	Testing required	{'24598717'}
+TPMT	mercaptopurine	PA166104945	A	1A	Testing recommended	{'21270794','23422873'}
+CYP2D6	nortriptyline	PA166104998	A	1A	Actionable PGx	{'23486447','27997040'}
+CYP2D6	ondansetron	PA166161954	A	1A	Informative PGx	{'28002639'}
+CYP2D6	oxycodone	PA166116088	A	2A		{}
+CYP2D6	paroxetine	PA166127636	A	1A	Informative PGx	{'25974703'}
+CYP2C9	phenytoin	PA166122806	A	1A	Actionable PGx	{'25099164'}
+HLA-B	phenytoin	PA166122806	A	1A	Actionable PGx	{'25099164'}
+G6PD	rasburicase	PA166119846	A	1A	Testing required	{'24787449'}
+CACNA1S	sevoflurane	PA166153252	A	3	Actionable PGx	{}
+RYR1	sevoflurane	PA166153256	A	3	Actionable PGx	{}
+SLCO1B1	simvastatin	PA166105005	A	1A		{'22617227','24918167'}
+CACNA1S	succinylcholine	PA166153250	A	3	Actionable PGx	{}
+CYP3A5	tacrolimus	PA166124619	A	1A		{'25801146'}
+CYP2D6	tamoxifen	PA166176068	A	1A		{}
+CYP2D6	tamoxifen	PA166116105	A	1A		{}
+TPMT	thioguanine	PA166104965	A	1A	Actionable PGx	{'21270794','23422873'}
+CYP2D6	tramadol	PA166116089	A	1B	Actionable PGx	{}
+CYP2D6	tropisetron	PA166161955	A			{'28002639'}
+CYP2C19	voriconazole	PA166161537	A	1A	Actionable PGx	{'27981572'}
+CYP2C9	warfarin	PA166104949	A	1A	Actionable PGx	{'21900891','28198005'}
+CYP4F2	warfarin	PA166104949	A	1B		{'21900891','28198005'}
+VKORC1	warfarin	PA166104949	A	1A	Actionable PGx	{'21900891','28198005'}
+CYP2C19	citalopram	PA166127638	A	1A	Actionable PGx	{'25974703'}
+CYP2C19	escitalopram	PA166127638	A	1A	Actionable PGx	{'25974703'}
+IFNL3	peginterferon alfa-2a	PA166110235	A	1A		{'24096968'}
+IFNL3	peginterferon alfa-2b	PA166110235	A	1A	Actionable PGx	{'24096968'}
+IFNL3	ribavirin	PA166110235	A	1A		{'24096968'}
+CYP2C9	acenocoumarol	PA166153262	B	2A		{}
+CYP4F2	acenocoumarol	PA166116133	B	2B		{}
+HLA-A	allopurinol	PA166153266	B	2B		{}
+CYP2D6	aripiprazole	PA166116129	B	3	Actionable PGx	{}
+CYP2D6	atomoxetine	PA166116103	B	2A	Actionable PGx	{}
+UGT1A1	belinostat	PA166153268	B	3	Actionable PGx	{}
+CYP2D6	brexpiprazole	PA166163798	B		Actionable PGx	{}
+SCN1A	carbamazepine	PA166116164	B	2B		{}
+NAGS	carglumic acid	PA166153367	B		Testing required	{}
+CYP2C9	celecoxib	PA166116132	B	2A	Actionable PGx	{}
+SLCO1B1	cerivastatin	PA166163801	B	2A		{}
+G6PD	chloramphenicol	PA166116110	B	3		{}
+G6PD	chloroquine	PA166116111	B	3	Actionable PGx	{}
+G6PD	chlorpropamide	PA166128097	B		Actionable PGx	{}
+G6PD	ciprofloxacin	PA166116112	B	4		{}
+CYP2C19	clomipramine	PA166105007	B	2A		{'23486447','27997040'}
+CYP2D6	clomipramine	PA166105007	B	1A	Actionable PGx	{'23486447','27997040'}
+G6PD	dapsone	PA166116113	B	1B	Actionable PGx	{}
+CYP2D6	desipramine	PA166105002	B	1A	Actionable PGx	{'23486447','27997040'}
+CYP2C19	dexlansoprazole	PA166128100	B		Actionable PGx	{}
+G6PD	dimercaprol	PA166116114	B	3		{}
+POLG	divalproex sodium	PA166153370	B		Testing required	{}
+CYP2C19	doxepin	PA166105000	B	3	Actionable PGx	{'23486447','27997040'}
+CYP2D6	doxepin	PA166105000	B	1A	Actionable PGx	{'23486447','27997040'}
+CYP2B6	efavirenz	PA166116170	B	1B	Actionable PGx	{}
+CYP2D6	eliglustat	PA166153263	B		Testing required	{}
+CYP2C19	esomeprazole	PA166116093	B	3	Actionable PGx	{}
+G6PD	glibenclamide	PA166131625	B	3	Actionable PGx	{}
+G6PD	glimepiride	PA166128103	B		Actionable PGx	{}
+G6PD	glipizide	PA166128104	B		Actionable PGx	{}
+G6PD	hydroxychloroquine	PA166116115	B			{}
+CYP2C19	imipramine	PA166104999	B	2A		{'23486447','27997040'}
+CYP2D6	imipramine	PA166104999	B	1A	Actionable PGx	{'23486447','27997040'}
+CYP2C19	lansoprazole	PA166116094	B	2A	Informative PGx	{}
+G6PD	levofloxacin	PA166116116	B			{}
+G6PD	mafenide	PA166128108	B		Actionable PGx	{}
+G6PD	mefloquine	PA166116117	B	3		{}
+G6PD	mesalazine	PA166116118	B			{}
+CYP2B6	methadone	PA166153261	B	2A		{}
+G6PD	methylene blue	PA166116119	B	3	Actionable PGx	{}
+CYP2D6	methylphenidate	PA166116104	B	4		{}
+CYP2D6	mirtazapine	PA166116101	B	2A		{}
+G6PD	moxifloxacin	PA166116120	B			{}
+HPRT1	mycophenolic acid	PA166153364	B		Actionable PGx	{}
+G6PD	nalidixic acid	PA166128110	B		Actionable PGx	{}
+CYP2B6	nevirapine	PA166116178	B	2A		{}
+G6PD	nitrofurantoin	PA166116121	B	3	Actionable PGx	{}
+G6PD	norfloxacin	PA166116122	B		Actionable PGx	{}
+CYP2C19	omeprazole	PA166116095	B	2A	Actionable PGx	{}
+HLA-B	oxcarbazepine	PA166153267	B	3	Testing recommended	{}
+CYP2C19	pantoprazole	PA166128111	B	3	Actionable PGx	{}
+G6PD	pegloticase	PA166128113	B	3	Testing required	{}
+G6PD	phenazopyridine	PA166116123	B	3		{}
+CYP4F2	phenprocoumon	PA166116134	B	2A		{}
+SCN1A	phenytoin	PA166116181	B	2B		{}
+CYP2D6	pimozide	PA166128115	B	4	Testing required	{}
+G6PD	primaquine	PA166116124	B	3	Testing required	{}
+G6PD	probenecid	PA166116125	B		Actionable PGx	{}
+CYP2D6	protriptyline	PA166116085	B		Actionable PGx	{}
+G6PD	quinine	PA166128116	B		Actionable PGx	{}
+CYP2C19	rabeprazole	PA166116096	B	2A	Actionable PGx	{}
+CYP2D6	risperidone	PA166116130	B	2A	Informative PGx	{}
+CYP2C19	sertraline	PA166127639	B	1A		{'25974703'}
+CYP2D6	sertraline	PA166116108	B	3		{}
+G6PD	sodium nitrite	PA166128117	B		Actionable PGx	{}
+RYR1	succinylcholine	PA166116131	B	3	Actionable PGx	{}
+G6PD	sulfacetamide	PA166116126	B			{}
+G6PD	sulfadiazine	PA166153264	B		Actionable PGx	{}
+G6PD	sulfamethoxazole / trimethoprim	PA166116127	B	3	Actionable PGx	{}
+G6PD	sulfasalazine	PA166116128	B	4	Actionable PGx	{}
+CYP2C19	trimipramine	PA166105001	B	2A		{'23486447','27997040'}
+CYP2D6	trimipramine	PA166105001	B	1A	Actionable PGx	{'23486447','27997040'}
+ABL2	valproic acid	PA166153358	B		Actionable PGx	{}
+ASL	valproic acid	PA166153359	B		Actionable PGx	{}
+ASS1	valproic acid	PA166153360	B		Actionable PGx	{}
+CPS1	valproic acid	PA166153361	B		Actionable PGx	{}
+NAGS	valproic acid	PA166153366	B		Actionable PGx	{}
+OTC	valproic acid	PA166153368	B		Actionable PGx	{}
+POLG	valproic acid	PA166153369	B	3	Testing required	{}
+GBA	velaglucerase alfa	PA166153363	B		Testing required	{}
+CYP2D6	venlafaxine	PA166116102	B	2A	Informative PGx	{}
+CYP2D6	vortioxetine	PA166128118	B	3	Actionable PGx	{}
+CYP4F2	warfarin	PA166116135	B	1B		{}
+CYP2D6	dextromethorphan	PA166153249	B	3		{}
+CYP2D6	quinidine	PA166153249	B		Informative PGx	{}
+G6PD	erythromycin	PA166153265	B			{}
+G6PD	sulfisoxazole	PA166153265	B			{}
+CYP2C19	brivaracetam	PA166163799	B/C	4	Actionable PGx	{}
+CYP2C19	carisoprodol	PA166128096	B/C	3	Actionable PGx	{}
+SLC6A4	citalopram	PA166153270	B/C	2A		{}
+G6PD	dabrafenib	PA166128099	B/C		Actionable PGx	{}
+UGT1A1	dolutegravir	PA166163802	B/C		Actionable PGx	{}
+CYP2D6	donepezil	PA166163803	B/C	3	Actionable PGx	{}
+SLC6A4	escitalopram	PA166153269	B/C	2A		{}
+CYP2C9	flurbiprofen	PA166128101	B/C	3	Actionable PGx	{}
+CYP2D6	iloperidone	PA166128106	B/C	3	Actionable PGx	{}
+G6PD	lidocaine	PA166163810	B/C			{}
+UGT1A1	pazopanib	PA166128112	B/C	3	Actionable PGx	{}
+CYP2D6	perphenazine	PA166128114	B/C		Actionable PGx	{}
+HLA-C	allopurinol	PA166153288	C	2B		{}
+MT-RNR1	aminoglycoside antibacterials	PA166153294	C	1B		{}
+MC4R	antipsychotics	PA166153293	C	2B		{}
+HLA-DPB1	aspirin	PA166153290	C	2B		{}
+CFTR	ataluren	PA166153271	C	2A		{}
+CYP3A5	atazanavir	PA166153279	C	3		{}
+MTHFR	capecitabine	PA166116155	C	3		{}
+HLA-B	carbimazole	PA166153285	C	2A		{}
+MTHFR	carboplatin	PA166116156	C	2A		{}
+CYP2D6	carvedilol	PA166116149	C	3	Actionable PGx	{}
+CYP2D6	cevimeline	PA166116142	C		Actionable PGx	{}
+XPC	cisplatin	PA166153297	C	1B		{}
+CYP2C19	clobazam	PA166128098	C	2A	Actionable PGx	{}
+CYP2D6	clozapine	PA166116137	C		Actionable PGx	{}
+MTHFR	cyclophosphamide	PA166116157	C	2A		{}
+CYP3A5	cyclosporine	PA166153278	C	2B		{}
+HLA-B	dapsone	PA166153282	C	2A		{}
+CYP2D6	darifenacin	PA166153274	C		Actionable PGx	{}
+CYP2C19	diazepam	PA166116136	C	3	Actionable PGx	{}
+CYP2C9	diclofenac	PA166153272	C	2A		{}
+CYP2D6	dolasetron	PA166161899	C	3		{}
+CYP2D6	duloxetine	PA166163804	C		Actionable PGx	{}
+F5	eltrombopag	PA166153280	C		Actionable PGx	{}
+SERPINC1	eltrombopag	PA166153295	C		Actionable PGx	{}
+CYP2D6	fesoterodine	PA166153275	C		Actionable PGx	{}
+CYP2D6	flecainide	PA166116143	C	2A		{}
+CYP2C19	flibanserin	PA166163806	C		Actionable PGx	{}
+CYP2C9	flibanserin	PA166163805	C		Actionable PGx	{}
+CYP2D6	flibanserin	PA166163807	C		Actionable PGx	{}
+MTHFR	fluorouracil	PA166116158	C	3		{}
+CYP2D6	fluoxetine	PA166116106	C	3	Informative PGx	{}
+CYP2D6	haloperidol	PA166116138	C	3		{}
+F5	hormonal contraceptives for systemic use	PA166116153	C	2A		{}
+NAT2	isoniazid	PA166116162	C	2A		{}
+HLA-DQA1	lapatinib	PA166153291	C	2B	Actionable PGx	{}
+CYP2C9	lesinurad	PA166163809	C		Actionable PGx	{}
+MTHFR	leucovorin	PA166116159	C	3		{}
+HLA-B	methazolamide	PA166153284	C	2A		{}
+HLA-C	methazolamide	PA166153289	C	2B		{}
+HLA-B	methimazole	PA166153286	C	2A		{}
+MTHFR	methotrexate	PA166116160	C	2A		{}
+SLCO1B1	methotrexate	PA166163811	C	2A		{}
+CYP2D6	metoprolol	PA166116150	C	2A	Informative PGx	{}
+CYP3A5	midazolam	PA166163812	C	3		{}
+CYP2D6	modafinil	PA166153273	C		Actionable PGx	{}
+HLA-B	nevirapine	PA166153283	C	2A		{}
+HLA-DRB1	nevirapine	PA166153292	C	2B		{}
+UGT1A1	nilotinib	PA166116154	C	3	Actionable PGx	{}
+CYP2D6	olanzapine	PA166116139	C	3		{}
+MTHFR	oxaliplatin	PA166116161	C	3		{}
+CYP2D6	palonosetron	PA166161901	C		Informative PGx	{}
+SLCO1B1	pravastatin	PA166163814	C	2A		{}
+CYP2D6	propafenone	PA166116144	C	2A	Actionable PGx	{}
+CYP2D6	propranolol	PA166116151	C	4	Informative PGx	{}
+HLA-B	propylthiouracil	PA166153287	C	2A		{}
+CYP2D6	quinine	PA166153362	C		Actionable PGx	{}
+DRD2	risperidone	PA166116163	C	2A		{}
+SLCO1B1	rosuvastatin	PA166163817	C	2A	Actionable PGx	{}
+COMT	Selective serotonin reuptake inhibitors	PA166163818	C	2B		{}
+CYP3A5	sirolimus	PA166153277	C	2A		{}
+CYP3A4	tacrolimus	PA166153276	C	2A		{}
+CYP2D6	tamsulosin	PA166163819	C		Actionable PGx	{}
+DPYD	tegafur	PA166122687	C	1A		{'23988873'}
+CYP2D6	terbinafine	PA166116145	C		Informative PGx	{}
+CYP2D6	tetrabenazine	PA166116146	C		Testing required	{}
+CYP2D6	thioridazine	PA166116140	C	3	Actionable PGx	{}
+CYP2D6	timolol	PA166116152	C	3		{}
+CYP2D6	tiotropium	PA166116147	C		Informative PGx	{}
+CYP2D6	tolterodine	PA166116148	C	2A	Actionable PGx	{}
+TNF	Tumor necrosis factor alpha (TNF-alpha) inhibitors	PA166153296	C	2B		{}
+G6PD	vitamin c	PA166153281	C			{}
+CYP2D6	zuclopenthixol	PA166116141	C	3		{}
+OPRM1	alfentanil	PA166153309	C/D	2B		{}
+COMT	cisplatin	PA166116165	C/D	3		{}
+CES1	clopidogrel	PA166116166	C/D	2B		{}
+GSTP1	cyclophosphamide	PA166116167	C/D	2A		{}
+ABCB1	digoxin	PA166116168	C/D	2A		{}
+CYP2A7P1	efavirenz	PA166116169	C/D			{}
+GSTP1	epirubicin	PA166116171	C/D	2A		{}
+OPRM1	ethanol	PA166153308	C/D	2B		{}
+ABCB1	fentanyl	PA166153301	C/D	2B		{}
+OPRM1	fentanyl	PA166153310	C/D	2B		{}
+GSTP1	fluorouracil	PA166116172	C/D	2A		{}
+ITPA	interferon alfa-2b, recombinant	PA166116173	C/D	2B		{}
+ABCB1	methadone	PA166153302	C/D	2B		{}
+OPRM1	methadone	PA166153312	C/D	3		{}
+ABCB1	methotrexate	PA166153300	C/D	2A		{}
+ABCB1	morphine	PA166153303	C/D	2B		{}
+OPRM1	morphine	PA166116174	C/D	2B		{}
+OPRM1	naloxone	PA166116175	C/D	2B		{}
+OPRM1	naltrexone	PA166153311	C/D	3		{}
+ABCB1	nevirapine	PA166116176	C/D	2A		{}
+CYP2A7P1	nevirapine	PA166116177	C/D			{}
+COMT	nicotine	PA166116179	C/D	2A		{}
+ABCB1	ondansetron	PA166153299	C/D	2A		{}
+GSTP1	oxaliplatin	PA166116180	C/D	2A		{}
+ABCB1	oxycodone	PA166153304	C/D	2B		{}
+GSTP1	Platinum compounds	PA166116182	C/D	2A		{}
+CYP2C8	rosiglitazone	PA166163816	C/D	2A		{}
+ADRB2	salbutamol	PA166116183	C/D	2A		{}
+ADRB2	salmeterol	PA166116184	C/D	2A		{}
+ABCB1	simvastatin	PA166153298	C/D	2A		{}
+BCHE	succinylcholine	PA166153307	C/D	3	Actionable PGx	{}
+ABCB1	sunitinib	PA166153306	C/D	2B		{}
+ABCB1	tramadol	PA166153305	C/D	2B		{}
+OPRM1	tramadol	PA166153313	C/D	2B		{}
+KCNIP4	Ace Inhibitors, Plain	PA166153248	D	3		{}
+NQO1	Alkylating Agents	PA166153342	D	2A		{}
+CBR3	anthracyclines and related substances	PA166116185	D	2B		{}
+HAS3	anthracyclines and related substances	PA166153334	D	2B		{}
+NQO1	anthracyclines and related substances	PA166153343	D	2A		{}
+SLC28A3	anthracyclines and related substances	PA166163797	D	2B		{}
+FKBP5	antidepressants	PA166153329	D	2B		{}
+GRIK4	antidepressants	PA166153331	D	2B		{}
+HTR2A	antidepressants	PA166153336	D	2B		{}
+ANKK1	antipsychotics	PA166116186	D	2B		{}
+GP1BA	aspirin	PA166153330	D	2B		{}
+LTC4S	aspirin	PA166116187	D	2B		{}
+PTGS1	aspirin	PA166153351	D	2B		{}
+APOE	atorvastatin	PA166153316	D	2A		{}
+COQ2	atorvastatin	PA166116188	D	2B		{}
+KIF6	atorvastatin	PA166153339	D	2B		{}
+LDLR	atorvastatin	PA166153365	D		Informative PGx	{}
+FDPS	Bisphosphonates	PA166116189	D	2B		{}
+CRHR1	budesonide	PA166116190	D	2B		{}
+ANKK1	bupropion	PA166116191	D	1B		{}
+ADORA2A	caffeine	PA166116192	D	2B		{}
+TYMS	capecitabine	PA166163800	D	2A		{}
+ACE	captopril	PA166153314	D	2A		{}
+EPHX1	carbamazepine	PA166116194	D	2B		{}
+FLOT1	carbamazepine	PA166116193	D			{}
+EGF	cetuximab	PA166116196	D	2B		{}
+FCGR3A	cetuximab	PA166116195	D	3		{}
+GSTM1	cisplatin	PA166153332	D	2B		{}
+TMEM43	cisplatin	PA166116197	D			{}
+TP53	cisplatin	PA166116198	D	2B		{}
+GRIK4	citalopram	PA166116199	D			{}
+HTR2A	citalopram	PA166116200	D	2B		{}
+HTR2C	clozapine	PA166116201	D	2B		{}
+SOD2	cyclophosphamide	PA166116202	D	2B		{}
+TP53	cyclophosphamide	PA166116203	D	2B		{}
+ANKK1	ethanol	PA166153315	D	2B		{}
+DYNC2H1	etoposide	PA166153327	D	2B		{}
+NQO1	fluorouracil	PA166153344	D	2A		{}
+TYMS	fluorouracil	PA166163808	D	2A		{}
+UMPS	fluorouracil	PA166116204	D	2B		{}
+CRHR1	fluticasone propionate	PA166153321	D	2B		{}
+CRHR1	fluticasone/salmeterol	PA166153322	D	2B		{}
+ADD1	furosemide	PA166116205	D	2B		{}
+CYP2D6	galantamine	PA166128102	D	3	Informative PGx	{}
+NT5C2	gemcitabine	PA166153346	D	2B		{}
+CETP	hmg coa reductase inhibitors	PA166153319	D	2B		{}
+HMGCR	hmg coa reductase inhibitors	PA166116222	D	2A		{}
+LPA	hmg coa reductase inhibitors	PA166153340	D	2B		{}
+NEDD4L	hydrochlorothiazide	PA166153341	D	2B		{}
+PRKCA	hydrochlorothiazide	PA166153347	D	2B		{}
+YEATS4	hydrochlorothiazide	PA166116206	D	2B		{}
+C8orf34	irinotecan	PA166153317	D	2B		{}
+SEMA3C	irinotecan	PA166153352	D	2B		{}
+UGT1A4	lamotrigine	PA166153357	D	2B		{}
+PTGFR	latanoprost	PA166153350	D	2B		{}
+C11orf65	metformin	PA166116207	D	2B		{}
+SLC47A2	metformin	PA166153353	D	3		{}
+ATIC	methotrexate	PA166116209	D	2B		{}
+MTRR	methotrexate	PA166116208	D	2B		{}
+CYB5R1	metoclopramide	PA166128186	D		Actionable PGx	{}
+CYB5R2	metoclopramide	PA166153324	D		Actionable PGx	{}
+CYB5R3	metoclopramide	PA166153325	D		Actionable PGx	{}
+CYB5R4	metoclopramide	PA166153326	D		Actionable PGx	{}
+CCHCR1	nevirapine	PA166153318	D	2B		{}
+CHRNA3	nicotine	PA166153320	D	2B		{}
+HTR2C	olanzapine	PA166116210	D	2B		{}
+GSTM1	oxaliplatin	PA166153333	D	2B		{}
+UGT2B15	oxazepam	PA166116211	D	2B		{}
+HTR1A	paroxetine	PA166153335	D	2B		{}
+VDR	peginterferon alfa-2b	PA166163813	D	2A		{}
+XRCC1	platinum	PA166116213	D	2B		{}
+DYNC2H1	Platinum compounds	PA166153328	D	2B		{}
+ERCC1	Platinum compounds	PA166116212	D	2B		{}
+NQO1	Platinum compounds	PA166153345	D	2A		{}
+KIF6	pravastatin	PA166153338	D	2B		{}
+TANC1	radiotherapy	PA166153354	D	2A		{}
+VDR	ribavirin	PA166163815	D	2A		{}
+HTR2C	risperidone	PA166116214	D	2B		{}
+FCGR3A	rituximab	PA166116215	D	2B		{}
+ABCG2	rosuvastatin	PA166116216	D	2B		{}
+COQ2	rosuvastatin	PA166116217	D	2B		{}
+COL22A1	salbutamol	PA166116218	D	2B		{}
+CRHR2	salbutamol	PA166116219	D	2B		{}
+TXNRD2	Selective serotonin reuptake inhibitors	PA166153356	D	2B		{}
+GNB3	sildenafil	PA166116220	D	2B		{}
+ADD1	spironolactone	PA166116221	D	2B		{}
+TCF7L2	sulfonamides	PA166153355	D			{}
+ABCC4	tenofovir	PA166116223	D	2B		{}
+CRHR1	triamcinolone	PA166153323	D	2B		{}
+CALU	warfarin	PA166116225	D	2B		{}
+GGCX	warfarin	PA166116224	D	2B		{}
+PROC	warfarin	PA166153348	D		Actionable PGx	{}
+PROS1	warfarin	PA166153349	D		Actionable PGx	{}
+NAT1	hydralazine	PA166128107	D			{}
+NAT2	hydralazine	PA166128107	D	3		{}
+NAT1	isosorbide dinitrate	PA166128107	D			{}
+NAT2	isosorbide dinitrate	PA166128107	D			{}
+IFNL4	peginterferon alfa-2a	PA166153337	D	1A		{}
+IFNL4	peginterferon alfa-2b	PA166153337	D	1A		{}
+ABCB1	antidepressants	PA166153258	A/B	3		{}
+NUDT15	azathioprine	PA166153259	A/B	1B		{}
+NUDT15	mercaptopurine	PA166153260	A/B	1B		{}
+\.
