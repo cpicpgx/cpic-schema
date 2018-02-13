@@ -8,6 +8,22 @@ CREATE TABLE guideline
     url VARCHAR(200)
 );
 
+CREATE TABLE publication
+(
+    publicationid INTEGER PRIMARY KEY DEFAULT nextval('cpic_id'),
+    guidelineid INTEGER REFERENCES guideline(guidelineid),
+    title VARCHAR(200),
+    authors TEXT[],
+    journal varchar(200),
+    month integer,
+    page varchar(50),
+    volume varchar(50),
+    year integer,
+    pmid text,
+    pmcid text,
+    doi text
+);
+
 CREATE TABLE allele
 (
   alleleid INTEGER PRIMARY KEY DEFAULT nextval('cpic_id'),
@@ -73,5 +89,6 @@ BEGIN;
 \i ./allele.sql
 \i ./pair.sql
 \i ./gene.sql
+\i ./publication.sql
 
 COMMIT;
