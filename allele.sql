@@ -1,4 +1,33 @@
-\copy allele(gene,name) from STDIN;
+CREATE TABLE allele
+(
+  alleleid INTEGER PRIMARY KEY DEFAULT nextval('cpic_id'),
+  version INTEGER DEFAULT 1,
+  hgncId VARCHAR(50) REFERENCES gene(hgncid) NOT NULL,
+  name VARCHAR(200) NOT NULL,
+  functionalStatus VARCHAR(200)
+);
+
+CREATE TABLE sequence_location
+(
+  locationid INTEGER PRIMARY KEY DEFAULT nextval('cpic_id'),
+  version INTEGER DEFAULT 1,
+  name VARCHAR(200),
+  chromosomeLocation VARCHAR(200),
+  geneLocation VARCHAR(200),
+  proteinLocation VARCHAR(200),
+  chromosomeStart BIGINT,
+  referenceAllele VARCHAR(200),
+  dbSnpId VARCHAR(20)
+);
+
+CREATE TABLE allele_location_value
+(
+  alleleid INTEGER NOT NULL REFERENCES allele(alleleid),
+  locationid INTEGER NOT NULL REFERENCES sequence_location(locationid),
+  variantAllele VARCHAR(200) NOT NULL
+);
+
+\copy allele(hgncId,name) from STDIN;
 CFTR	Reference
 CFTR	F508del(CTT)
 CFTR	F508del(TCT)

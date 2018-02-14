@@ -1,3 +1,12 @@
+CREATE TABLE gene
+(
+  hgncId VARCHAR(20) PRIMARY KEY NOT NULL,
+  chr VARCHAR(20),
+  geneSequenceId VARCHAR(20),
+  proteinSequenceId VARCHAR(20),
+  pharmgkbId VARCHAR(20)
+);
+
 \copy gene(hgncId,chr,geneSequenceId,proteinSequenceId) from STDIN;
 ABCB1	chr7	NG_011513	NP_000918
 ABCC4	chr13		NP_005836

@@ -1,3 +1,10 @@
+CREATE TABLE drug
+(
+  drugId VARCHAR(20) PRIMARY KEY NOT NULL,
+  name VARCHAR(200) NOT NULL UNIQUE,
+  pharmgkbId VARCHAR(20)
+);
+
 \copy drug(drugId,name) from STDIN;
 RxNorm:190521	abacavir
 ATC:C09AA	Ace Inhibitors, Plain

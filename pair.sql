@@ -1,3 +1,18 @@
+CREATE TABLE pair
+(
+  pairid INTEGER PRIMARY KEY DEFAULT nextval('cpic_id'),
+  hgncId varchar(20) references gene(hgncId),
+  drugId varchar(20) REFERENCES drug(drugId),
+  drugName varchar(100), -- temporary column, is removed at end of script
+  guidelineId INTEGER REFERENCES guideline(guidelineid),
+  pgkbGuidelineId varchar(20), -- temporary column, is removed at end of script
+  version INTEGER DEFAULT 1,
+  level VARCHAR(5) NOT NULL,
+  pgkbCALevel VARCHAR(5),
+  pgxTesting VARCHAR(50),
+  citations TEXT[]
+);
+
 \copy pair(hgncId,drugName,pgkbGuidelineId,level,pgkbCALevel,pgxTesting,citations) from STDIN;
 HLA-B	abacavir	PA166104997	A	1A	Testing required	{'22378157','24561393'}
 HLA-B	allopurinol	PA166105003	A	1A		{'23232549','26094938'}
@@ -353,3 +368,9 @@ ABCB1	antidepressants	PA166153258	A/B	3		{}
 NUDT15	azathioprine	PA166153259	A/B	1B		{}
 NUDT15	mercaptopurine	PA166153260	A/B	1B		{}
 \.
+
+-- load drug ID's into pair table and then remove the drug name column
+update pair p set drugId=(select drugId from drug d where p.drugName=d.name);
+update pair p set guidelineId=(select guidelineId from guideline g where p.pgkbGuidelineId=g.pharmgkbId);
+ALTER TABLE pair DROP COLUMN drugName;
+ALTER TABLE pair DROP COLUMN pgkbGuidelineId;

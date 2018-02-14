@@ -1,3 +1,12 @@
+CREATE TABLE guideline
+(
+  guidelineid INTEGER PRIMARY KEY DEFAULT nextval('cpic_id'),
+  version INTEGER DEFAULT 1,
+  name VARCHAR(200) NOT NULL,
+  url VARCHAR(200),
+  pharmgkbId varchar(20)
+);
+
 \copy guideline(guidelineId,version,name,url,pharmgkbId) from STDIN;
 100000	1	CPIC Guideline for peginterferon alfa-2a,peginterferon alfa-2b,ribavirin and IFNL3	https://cpicpgx.org/guidelines/guideline-for-peg-interferon-alpha-based-regimens-and-ifnl3/	PA166110235
 100001	1	CPIC Guideline for ivacaftor and CFTR	https://cpicpgx.org/guidelines/guideline-for-ivacaftor-and-cftr/	PA166114461

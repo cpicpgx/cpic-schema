@@ -1,3 +1,19 @@
+CREATE TABLE publication
+(
+  publicationid INTEGER PRIMARY KEY DEFAULT nextval('cpic_id'),
+  guidelineid INTEGER REFERENCES guideline(guidelineid),
+  title VARCHAR(200),
+  authors TEXT[],
+  journal varchar(200),
+  month integer,
+  page varchar(50),
+  volume varchar(50),
+  year integer,
+  pmid text,
+  pmcid text,
+  doi text
+);
+
 \copy publication(title,guidelineid,authors,journal,month,page,volume,year,pmid) from STDIN;
 Clinical Pharmacogenetics Implementation Consortium (CPIC) guidelines for IFNL3 (IL28B) genotype and peginterferon alpha based regimens	100000	{'Muir Andrew J','Gong Li','Johnson Samuel G','Michael Lee Ming Ta','Williams Marc S','Klein Teri E','Caudle Kelly E','Nelson David R'}	Clinical pharmacology and therapeutics	10	null	null	2013	24096968
 Clinical Pharmacogenetics Implementation Consortium (CPIC) Guidelines for Ivacaftor Therapy in the Context of CFTR Genotype	100001	{'Clancy John P','Johnson Samuel G','Yee Sook Wah','McDonagh Ellen M','Caudle Kelly E','Klein Teri E','Cannavo Matthew','Giacomini Kathleen M'}	Clinical pharmacology and therapeutics	3	null	null	2014	24598717
