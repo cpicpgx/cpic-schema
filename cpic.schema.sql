@@ -9,4 +9,5 @@ BEGIN;
 \i ./publication.sql
 \i ./drug.sql
 \i ./pair.sql
+\i ./terms.sql
 COMMIT;
