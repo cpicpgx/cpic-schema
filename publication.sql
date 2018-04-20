@@ -1,7 +1,7 @@
 CREATE TABLE publication
 (
-  publicationid INTEGER PRIMARY KEY DEFAULT nextval('cpic_id'),
-  guidelineid INTEGER REFERENCES guideline(guidelineid),
+  id INTEGER PRIMARY KEY DEFAULT nextval('cpic_id'),
+  guidelineid INTEGER REFERENCES guideline(id),
   title VARCHAR(200),
   authors TEXT[],
   journal varchar(200),

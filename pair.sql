@@ -4,7 +4,7 @@ CREATE TABLE pair
   hgncId varchar(20) references gene(hgncId),
   drugId varchar(20) REFERENCES drug(drugId),
   drugName varchar(100), -- temporary column, is removed at end of script
-  guidelineId INTEGER REFERENCES guideline(guidelineid),
+  guidelineId INTEGER REFERENCES guideline(id),
   pgkbGuidelineId varchar(20), -- temporary column, is removed at end of script
   version INTEGER DEFAULT 1,
   level VARCHAR(5) NOT NULL,
