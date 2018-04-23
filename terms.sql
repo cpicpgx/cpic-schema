@@ -1,5 +1,3 @@
-DROP TABLE IF EXISTS terms;
-
 CREATE TABLE terms (
   id INTEGER PRIMARY KEY DEFAULT nextval('cpic_id'),
   category VARCHAR(200),
