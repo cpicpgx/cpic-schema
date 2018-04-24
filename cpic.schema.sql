@@ -19,5 +19,4 @@ grant select,insert,update,delete on all tables in schema public to cpic_api;
 grant usage,select on sequence cpic_id to cpic_api;
 
 -- web_anon can read anything in public
-grant usage on schema public to web_anon;
 grant select on all tables in schema public to web_anon;
