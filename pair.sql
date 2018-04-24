@@ -3,63 +3,64 @@ CREATE TABLE pair
   pairid INTEGER PRIMARY KEY DEFAULT nextval('cpic_id'),
   hgncId varchar(20) references gene(hgncId),
   drugId varchar(20) REFERENCES drug(drugId),
-  drugName varchar(100), -- temporary column, is removed at end of script
   guidelineId INTEGER REFERENCES guideline(id),
-  pgkbGuidelineId varchar(20), -- temporary column, is removed at end of script
   version INTEGER DEFAULT 1,
   level VARCHAR(5) NOT NULL,
   pgkbCALevel VARCHAR(5),
   pgxTesting VARCHAR(50),
-  citations TEXT[]
+  citations TEXT[],
+
+  drugName varchar(100),      -- temporary column, is removed at end of script
+  pgkbGuidelineId varchar(20) -- temporary column, is removed at end of script
 );
 
 \copy pair(hgncId,drugName,pgkbGuidelineId,level,pgkbCALevel,pgxTesting,citations) from STDIN;
-HLA-B	abacavir	PA166104997	A	1A	Testing required	{'22378157','24561393'}
-HLA-B	allopurinol	PA166105003	A	1A		{'23232549','26094938'}
-CYP2C19	amitriptyline	PA166105006	A	1A		{'23486447','27997040'}
-CYP2D6	amitriptyline	PA166105006	A	1A	Actionable PGx	{'23486447','27997040'}
-UGT1A1	atazanavir	PA166128738	A	1A		{'26417955'}
-TPMT	azathioprine	PA166104933	A	1A	Testing recommended	{'21270794','23422873'}
-DPYD	capecitabine	PA166109594	A	1A	Actionable PGx	{'23988873','29152729'}
+HLA-B	abacavir	PA166104997	A	1A	Testing required	{"22378157","24561393"}
+HLA-B	allopurinol	PA166105003	A	1A		{"23232549","26094938"}
+CYP2C19	amitriptyline	PA166105006	A	1A		{"23486447","27997040"}
+CYP2D6	amitriptyline	PA166105006	A	1A	Actionable PGx	{"23486447","27997040"}
+UGT1A1	atazanavir	PA166128738	A	1A		{"26417955"}
+TPMT	azathioprine	PA166104933	A	1A	Testing recommended	{"21270794","23422873"}
+DPYD	capecitabine	PA166109594	A	1A	Actionable PGx	{"23988873","29152729"}
 HLA-A	carbamazepine	PA166153254	A	2B	Actionable PGx	{}
-HLA-B	carbamazepine	PA166105008	A	1A	Testing required	{'23695185'}
-CYP2C19	clopidogrel	PA166104948	A	1A	Actionable PGx	{'21716271','23698643'}
-CYP2D6	codeine	PA166104996	A	1A	Actionable PGx	{'22205192','24458010'}
+HLA-B	carbamazepine	PA166105008	A	1A	Testing required	{"23695185"}
+CYP2C19	clopidogrel	PA166104948	A	1A	Actionable PGx	{"21716271","23698643"}
+CYP2D6	codeine	PA166104996	A	1A	Actionable PGx	{"22205192","24458010"}
 CACNA1S	desflurane	PA166153253	A	3	Actionable PGx	{}
 RYR1	desflurane	PA166153257	A	3	Actionable PGx	{}
-DPYD	fluorouracil	PA166122686	A	1A	Actionable PGx	{'23988873','29152729'}
-CYP2D6	fluvoxamine	PA166127637	A	1A	Actionable PGx	{'25974703'}
+DPYD	fluorouracil	PA166122686	A	1A	Actionable PGx	{"23988873","29152729"}
+CYP2D6	fluvoxamine	PA166127637	A	1A	Actionable PGx	{"25974703"}
 UGT1A1	irinotecan	PA166116092	A	2A	Actionable PGx	{}
 CACNA1S	isoflurane	PA166153251	A	3	Actionable PGx	{}
 RYR1	isoflurane	PA166153255	A	3	Actionable PGx	{}
-CFTR	ivacaftor	PA166114461	A	1A	Testing required	{'24598717'}
-TPMT	mercaptopurine	PA166104945	A	1A	Testing recommended	{'21270794','23422873'}
-CYP2D6	nortriptyline	PA166104998	A	1A	Actionable PGx	{'23486447','27997040'}
-CYP2D6	ondansetron	PA166161954	A	1A	Informative PGx	{'28002639'}
+CFTR	ivacaftor	PA166114461	A	1A	Testing required	{"24598717"}
+TPMT	mercaptopurine	PA166104945	A	1A	Testing recommended	{"21270794","23422873"}
+CYP2D6	nortriptyline	PA166104998	A	1A	Actionable PGx	{"23486447","27997040"}
+CYP2D6	ondansetron	PA166161954	A	1A	Informative PGx	{"28002639"}
 CYP2D6	oxycodone	PA166116088	A	2A		{}
-CYP2D6	paroxetine	PA166127636	A	1A	Informative PGx	{'25974703'}
-CYP2C9	phenytoin	PA166122806	A	1A	Actionable PGx	{'25099164'}
-HLA-B	phenytoin	PA166122806	A	1A	Actionable PGx	{'25099164'}
-G6PD	rasburicase	PA166119846	A	1A	Testing required	{'24787449'}
+CYP2D6	paroxetine	PA166127636	A	1A	Informative PGx	{"25974703"}
+CYP2C9	phenytoin	PA166122806	A	1A	Actionable PGx	{"25099164"}
+HLA-B	phenytoin	PA166122806	A	1A	Actionable PGx	{"25099164"}
+G6PD	rasburicase	PA166119846	A	1A	Testing required	{"24787449"}
 CACNA1S	sevoflurane	PA166153252	A	3	Actionable PGx	{}
 RYR1	sevoflurane	PA166153256	A	3	Actionable PGx	{}
-SLCO1B1	simvastatin	PA166105005	A	1A		{'22617227','24918167'}
+SLCO1B1	simvastatin	PA166105005	A	1A		{"22617227","24918167"}
 CACNA1S	succinylcholine	PA166153250	A	3	Actionable PGx	{}
-CYP3A5	tacrolimus	PA166124619	A	1A		{'25801146'}
+CYP3A5	tacrolimus	PA166124619	A	1A		{"25801146"}
 CYP2D6	tamoxifen	PA166176068	A	1A		{}
 CYP2D6	tamoxifen	PA166116105	A	1A		{}
-TPMT	thioguanine	PA166104965	A	1A	Actionable PGx	{'21270794','23422873'}
+TPMT	thioguanine	PA166104965	A	1A	Actionable PGx	{"21270794","23422873"}
 CYP2D6	tramadol	PA166116089	A	1B	Actionable PGx	{}
-CYP2D6	tropisetron	PA166161955	A			{'28002639'}
-CYP2C19	voriconazole	PA166161537	A	1A	Actionable PGx	{'27981572'}
-CYP2C9	warfarin	PA166104949	A	1A	Actionable PGx	{'21900891','28198005'}
-CYP4F2	warfarin	PA166104949	A	1B		{'21900891','28198005'}
-VKORC1	warfarin	PA166104949	A	1A	Actionable PGx	{'21900891','28198005'}
-CYP2C19	citalopram	PA166127638	A	1A	Actionable PGx	{'25974703'}
-CYP2C19	escitalopram	PA166127638	A	1A	Actionable PGx	{'25974703'}
-IFNL3	peginterferon alfa-2a	PA166110235	A	1A		{'24096968'}
-IFNL3	peginterferon alfa-2b	PA166110235	A	1A	Actionable PGx	{'24096968'}
-IFNL3	ribavirin	PA166110235	A	1A		{'24096968'}
+CYP2D6	tropisetron	PA166161955	A			{"28002639"}
+CYP2C19	voriconazole	PA166161537	A	1A	Actionable PGx	{"27981572"}
+CYP2C9	warfarin	PA166104949	A	1A	Actionable PGx	{"21900891","28198005"}
+CYP4F2	warfarin	PA166104949	A	1B		{"21900891","28198005"}
+VKORC1	warfarin	PA166104949	A	1A	Actionable PGx	{"21900891","28198005"}
+CYP2C19	citalopram	PA166127638	A	1A	Actionable PGx	{"25974703"}
+CYP2C19	escitalopram	PA166127638	A	1A	Actionable PGx	{"25974703"}
+IFNL3	peginterferon alfa-2a	PA166110235	A	1A		{"24096968"}
+IFNL3	peginterferon alfa-2b	PA166110235	A	1A	Actionable PGx	{"24096968"}
+IFNL3	ribavirin	PA166110235	A	1A		{"24096968"}
 CYP2C9	acenocoumarol	PA166153262	B	2A		{}
 CYP4F2	acenocoumarol	PA166116133	B	2B		{}
 HLA-A	allopurinol	PA166153266	B	2B		{}
@@ -75,15 +76,15 @@ G6PD	chloramphenicol	PA166116110	B	3		{}
 G6PD	chloroquine	PA166116111	B	3	Actionable PGx	{}
 G6PD	chlorpropamide	PA166128097	B		Actionable PGx	{}
 G6PD	ciprofloxacin	PA166116112	B	4		{}
-CYP2C19	clomipramine	PA166105007	B	2A		{'23486447','27997040'}
-CYP2D6	clomipramine	PA166105007	B	1A	Actionable PGx	{'23486447','27997040'}
+CYP2C19	clomipramine	PA166105007	B	2A		{"23486447","27997040"}
+CYP2D6	clomipramine	PA166105007	B	1A	Actionable PGx	{"23486447","27997040"}
 G6PD	dapsone	PA166116113	B	1B	Actionable PGx	{}
-CYP2D6	desipramine	PA166105002	B	1A	Actionable PGx	{'23486447','27997040'}
+CYP2D6	desipramine	PA166105002	B	1A	Actionable PGx	{"23486447","27997040"}
 CYP2C19	dexlansoprazole	PA166128100	B		Actionable PGx	{}
 G6PD	dimercaprol	PA166116114	B	3		{}
 POLG	divalproex sodium	PA166153370	B		Testing required	{}
-CYP2C19	doxepin	PA166105000	B	3	Actionable PGx	{'23486447','27997040'}
-CYP2D6	doxepin	PA166105000	B	1A	Actionable PGx	{'23486447','27997040'}
+CYP2C19	doxepin	PA166105000	B	3	Actionable PGx	{"23486447","27997040"}
+CYP2D6	doxepin	PA166105000	B	1A	Actionable PGx	{"23486447","27997040"}
 CYP2B6	efavirenz	PA166116170	B	1B	Actionable PGx	{}
 CYP2D6	eliglustat	PA166153263	B		Testing required	{}
 CYP2C19	esomeprazole	PA166116093	B	3	Actionable PGx	{}
@@ -91,8 +92,8 @@ G6PD	glibenclamide	PA166131625	B	3	Actionable PGx	{}
 G6PD	glimepiride	PA166128103	B		Actionable PGx	{}
 G6PD	glipizide	PA166128104	B		Actionable PGx	{}
 G6PD	hydroxychloroquine	PA166116115	B			{}
-CYP2C19	imipramine	PA166104999	B	2A		{'23486447','27997040'}
-CYP2D6	imipramine	PA166104999	B	1A	Actionable PGx	{'23486447','27997040'}
+CYP2C19	imipramine	PA166104999	B	2A		{"23486447","27997040"}
+CYP2D6	imipramine	PA166104999	B	1A	Actionable PGx	{"23486447","27997040"}
 CYP2C19	lansoprazole	PA166116094	B	2A	Informative PGx	{}
 G6PD	levofloxacin	PA166116116	B			{}
 G6PD	mafenide	PA166128108	B		Actionable PGx	{}
@@ -122,7 +123,7 @@ CYP2D6	protriptyline	PA166116085	B		Actionable PGx	{}
 G6PD	quinine	PA166128116	B		Actionable PGx	{}
 CYP2C19	rabeprazole	PA166116096	B	2A	Actionable PGx	{}
 CYP2D6	risperidone	PA166116130	B	2A	Informative PGx	{}
-CYP2C19	sertraline	PA166127639	B	1A		{'25974703'}
+CYP2C19	sertraline	PA166127639	B	1A		{"25974703"}
 CYP2D6	sertraline	PA166116108	B	3		{}
 G6PD	sodium nitrite	PA166128117	B		Actionable PGx	{}
 RYR1	succinylcholine	PA166116131	B	3	Actionable PGx	{}
@@ -130,8 +131,8 @@ G6PD	sulfacetamide	PA166116126	B			{}
 G6PD	sulfadiazine	PA166153264	B		Actionable PGx	{}
 G6PD	sulfamethoxazole / trimethoprim	PA166116127	B	3	Actionable PGx	{}
 G6PD	sulfasalazine	PA166116128	B	4	Actionable PGx	{}
-CYP2C19	trimipramine	PA166105001	B	2A		{'23486447','27997040'}
-CYP2D6	trimipramine	PA166105001	B	1A	Actionable PGx	{'23486447','27997040'}
+CYP2C19	trimipramine	PA166105001	B	2A		{"23486447","27997040"}
+CYP2D6	trimipramine	PA166105001	B	1A	Actionable PGx	{"23486447","27997040"}
 ABL2	valproic acid	PA166153358	B		Actionable PGx	{}
 ASL	valproic acid	PA166153359	B		Actionable PGx	{}
 ASS1	valproic acid	PA166153360	B		Actionable PGx	{}
@@ -221,7 +222,7 @@ COMT	Selective serotonin reuptake inhibitors	PA166163818	C	2B		{}
 CYP3A5	sirolimus	PA166153277	C	2A		{}
 CYP3A4	tacrolimus	PA166153276	C	2A		{}
 CYP2D6	tamsulosin	PA166163819	C		Actionable PGx	{}
-DPYD	tegafur	PA166122687	C	1A		{'23988873'}
+DPYD	tegafur	PA166122687	C	1A		{"23988873"}
 CYP2D6	terbinafine	PA166116145	C		Informative PGx	{}
 CYP2D6	tetrabenazine	PA166116146	C		Testing required	{}
 CYP2D6	thioridazine	PA166116140	C	3	Actionable PGx	{}
