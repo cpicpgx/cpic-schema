@@ -372,6 +372,6 @@ NUDT15	mercaptopurine	PA166153260	A/B	1B		{}
 
 -- load drug ID's into pair table and then remove the drug name column
 update pair p set drugId=(select drugId from drug d where p.drugName=d.name);
-update pair p set guidelineId=(select guidelineId from guideline g where p.pgkbGuidelineId=g.pharmgkbId);
+update pair p set guidelineId=(select id from guideline g where p.pgkbGuidelineId=g.pharmgkbId);
 ALTER TABLE pair DROP COLUMN drugName;
 ALTER TABLE pair DROP COLUMN pgkbGuidelineId;
