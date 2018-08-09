@@ -110,6 +110,7 @@ CYP2B6	nevirapine	PA166116178	B	2A		{}
 G6PD	nitrofurantoin	PA166116121	B	3	Actionable PGx	{}
 G6PD	norfloxacin	PA166116122	B		Actionable PGx	{}
 CYP2C19	omeprazole	PA166116095	B	2A	Actionable PGx	{}
+HLA-B	oxcarbazepine	PA166176623	A	1A	Testing recommended	{"23695185"}
 HLA-B	oxcarbazepine	PA166153267	B	3	Testing recommended	{}
 CYP2C19	pantoprazole	PA166128111	B	3	Actionable PGx	{}
 G6PD	pegloticase	PA166128113	B	3	Testing required	{}
