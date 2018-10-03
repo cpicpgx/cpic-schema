@@ -31,3 +31,22 @@ CREATE TABLE translation_note
   hgncId VARCHAR(50) REFERENCES gene(hgncId) NOT NULL,
   note TEXT NOT NULL
 );
+
+CREATE TABLE population
+(
+  id INTEGER PRIMARY KEY DEFAULT nextval('cpic_id'),
+  citation VARCHAR(200),
+  ethnicity VARCHAR(50) NOT NULL,
+  population VARCHAR(200),
+  populationInfo VARCHAR(500),
+  subjectType VARCHAR(500),
+  subjectCount INTEGER DEFAULT 0
+);
+  
+CREATE TABLE allele_frequency
+(
+  alleleid INTEGER NOT NULL REFERENCES allele(id),
+  population INTEGER NOT NULL REFERENCES population(id),
+  frequency NUMERIC,
+  label VARCHAR(50)
+);
