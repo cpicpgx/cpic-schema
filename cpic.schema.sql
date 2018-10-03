@@ -13,10 +13,3 @@ BEGIN;
 \i ./pair.sql
 \i ./terms.sql
 COMMIT;
-
--- cpic_api can manage the schema
-grant select,insert,update,delete on all tables in schema public to cpic_api;
-grant usage,select on sequence cpic_id to cpic_api;
-
--- web_anon can read anything in public
-grant select on all tables in schema public to web_anon;
