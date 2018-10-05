@@ -6,7 +6,8 @@ CREATE TABLE gene
   proteinSequenceId VARCHAR(20),
   chromoSequenceId VARCHAR(20),
   pharmgkbId VARCHAR(20),
-  allelesLastModified DATE
+  allelesLastModified DATE,
+  functionalityReferenceLastModified DATE
 );
 
 \copy gene(hgncId,chr,geneSequenceId,proteinSequenceId,pharmgkbId) from STDIN;

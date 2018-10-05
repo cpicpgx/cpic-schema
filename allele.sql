@@ -50,3 +50,13 @@ CREATE TABLE allele_frequency
   frequency NUMERIC,
   label VARCHAR(50)
 );
+
+CREATE TABLE function_reference
+(
+  id INTEGER PRIMARY KEY DEFAULT nextval('cpic_id'),
+  alleleid INTEGER NOT NULL REFERENCES allele(id),
+  pmid VARCHAR(50),
+  finding TEXT,
+  substrate_in_vitro TEXT[],
+  substrate_in_vivo TEXT[]
+);
