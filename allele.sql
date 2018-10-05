@@ -48,7 +48,9 @@ CREATE TABLE allele_frequency
   alleleid INTEGER NOT NULL REFERENCES allele(id),
   population INTEGER NOT NULL REFERENCES population(id),
   frequency NUMERIC,
-  label VARCHAR(50)
+  label VARCHAR(50),
+  
+  UNIQUE (alleleid, population)
 );
 
 CREATE TABLE function_reference
