@@ -1,14 +1,3 @@
 # cpic-schema
 
-A database schema for CPIC
-
-Meant to be run against a local PosgreSQL 9.5 DB.
-
-
-## Building
-
-To build/rebuild the local database:
-
-```
-> make rebuild
-```
+The code that was here has been moved to [cpicpgx/cpic-data](https://github.com/cpicpgx/cpic-data).
