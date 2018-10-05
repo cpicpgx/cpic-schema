@@ -12,4 +12,5 @@ BEGIN;
 \i ./drug.sql
 \i ./pair.sql
 \i ./terms.sql
+\i ./diplotype.sql
 COMMIT;
